@@ -1,0 +1,1645 @@
+{
+ "genres": [
+  {
+   "name": "RPG",
+   "description": "Рольові ігри з прокачуванням героя та сюжетом."
+  },
+  {
+   "name": "Екшн",
+   "description": "Динамічні ігри, де головне — реакція та бої."
+  },
+  {
+   "name": "Пригоди",
+   "description": "Історії, дослідження та проходження сюжету."
+  },
+  {
+   "name": "Стратегія",
+   "description": "Планування, економіка та тактика."
+  },
+  {
+   "name": "Симулятор",
+   "description": "Імітація реальних або вигаданих занять."
+  },
+  {
+   "name": "Інді",
+   "description": "Ігри від невеликих незалежних студій."
+  },
+  {
+   "name": "Головоломка",
+   "description": "Логічні завдання та загадки."
+  },
+  {
+   "name": "Шутер",
+   "description": "Стрілянина від першої або третьої особи."
+  },
+  {
+   "name": "Платформер",
+   "description": "Стрибки та подолання перешкод."
+  },
+  {
+   "name": "Перегони",
+   "description": "Автомобілі, траси та швидкість."
+  },
+  {
+   "name": "Жахи",
+   "description": "Напружена атмосфера та виживання."
+  },
+  {
+   "name": "Відкритий світ",
+   "description": "Велика карта, яку можна досліджувати вільно."
+  },
+  {
+   "name": "Мультиплеєр",
+   "description": "Гра з режимом для кількох гравців: онлайн, локально або в кооперативі."
+  },
+  {
+   "name": "Одиночна гра",
+   "description": "Гра має режим для одного гравця: сюжетна кампанія або проходження наодинці."
+  }
+ ],
+ "platforms": [
+  {
+   "name": "PC",
+   "manufacturer": null
+  },
+  {
+   "name": "PlayStation 5",
+   "manufacturer": "Sony"
+  },
+  {
+   "name": "Xbox Series X|S",
+   "manufacturer": "Microsoft"
+  },
+  {
+   "name": "Nintendo Switch",
+   "manufacturer": "Nintendo"
+  }
+ ],
+ "developers": [
+  {
+   "name": "CD PROJEKT RED",
+   "city": "Варшава",
+   "country": "Польща",
+   "foundedYear": 2002,
+   "website": "https://www.cdprojektred.com"
+  },
+  {
+   "name": "Supergiant Games",
+   "city": "Сан-Франциско",
+   "country": "США",
+   "foundedYear": 2009,
+   "website": "https://www.supergiantgames.com"
+  },
+  {
+   "name": "ConcernedApe",
+   "city": null,
+   "country": "США",
+   "foundedYear": null,
+   "website": "https://www.stardewvalley.net"
+  },
+  {
+   "name": "Valve",
+   "city": "Беллв’ю",
+   "country": "США",
+   "foundedYear": 1996,
+   "website": "https://www.valvesoftware.com"
+  },
+  {
+   "name": "Maddy Makes Games",
+   "city": null,
+   "country": "Канада",
+   "foundedYear": null,
+   "website": "https://www.celestegame.com"
+  },
+  {
+   "name": "Playground Games",
+   "city": "Лемінгтон-Спа",
+   "country": "Велика Британія",
+   "foundedYear": 2010,
+   "website": "https://playground-games.com"
+  },
+  {
+   "name": "Team Cherry",
+   "city": "Аделаїда",
+   "country": "Австралія",
+   "foundedYear": null,
+   "website": "https://www.team-cherry.com"
+  },
+  {
+   "name": "Firaxis Games",
+   "city": "Хант-Веллі",
+   "country": "США",
+   "foundedYear": 1996,
+   "website": "https://firaxis.com"
+  },
+  {
+   "name": "Capcom",
+   "city": "Осака",
+   "country": "Японія",
+   "foundedYear": 1979,
+   "website": "https://www.capcom.com"
+  },
+  {
+   "name": "Nintendo",
+   "city": "Кіото",
+   "country": "Японія",
+   "foundedYear": null,
+   "website": "https://www.nintendo.com"
+  },
+  {
+   "name": "FromSoftware",
+   "city": "Токіо",
+   "country": "Японія",
+   "foundedYear": 1986,
+   "website": "https://www.fromsoftware.jp/ww/"
+  },
+  {
+   "name": "Larian Studios",
+   "city": "Гент",
+   "country": "Бельгія",
+   "foundedYear": 1996,
+   "website": "https://larian.com"
+  },
+  {
+   "name": "Rockstar Games",
+   "city": "Нью-Йорк",
+   "country": "США",
+   "foundedYear": 1998,
+   "website": "https://www.rockstargames.com"
+  },
+  {
+   "name": "Avalanche Software",
+   "city": "Солт-Лейк-Сіті",
+   "country": "США",
+   "foundedYear": 1995,
+   "website": null
+  },
+  {
+   "name": "Re-Logic",
+   "city": null,
+   "country": "США",
+   "foundedYear": 2011,
+   "website": "https://re-logic.com"
+  },
+  {
+   "name": "Mojang Studios",
+   "city": "Стокгольм",
+   "country": "Швеція",
+   "foundedYear": 2009,
+   "website": "https://www.minecraft.net"
+  },
+  {
+   "name": "Innersloth",
+   "city": "Редмонд",
+   "country": "США",
+   "foundedYear": 2015,
+   "website": "https://www.innersloth.com"
+  },
+  {
+   "name": "Psyonix",
+   "city": "Сан-Дієго",
+   "country": "США",
+   "foundedYear": 2000,
+   "website": "https://www.psyonix.com"
+  },
+  {
+   "name": "Epic Games",
+   "city": "Кері",
+   "country": "США",
+   "foundedYear": 1991,
+   "website": "https://www.epicgames.com"
+  },
+  {
+   "name": "Respawn Entertainment",
+   "city": "Шерман-Окс",
+   "country": "США",
+   "foundedYear": 2010,
+   "website": "https://www.respawn.com"
+  },
+  {
+   "name": "Studio MDHR",
+   "city": "Оуквілл",
+   "country": "Канада",
+   "foundedYear": 2014,
+   "website": "https://www.cupheadgame.com"
+  },
+  {
+   "name": "ZA/UM",
+   "city": "Лондон",
+   "country": "Велика Британія",
+   "foundedYear": 2016,
+   "website": null
+  },
+  {
+   "name": "Paradox Development Studio",
+   "city": "Стокгольм",
+   "country": "Швеція",
+   "foundedYear": null,
+   "website": null
+  },
+  {
+   "name": "Colossal Order",
+   "city": "Гельсінкі",
+   "country": "Фінляндія",
+   "foundedYear": 2009,
+   "website": "https://www.colossalorder.fi"
+  },
+  {
+   "name": "SCS Software",
+   "city": "Прага",
+   "country": "Чехія",
+   "foundedYear": 1997,
+   "website": "https://scssoft.com"
+  },
+  {
+   "name": "Ghost Town Games",
+   "city": "Гілфорд",
+   "country": "Велика Британія",
+   "foundedYear": 2013,
+   "website": null
+  },
+  {
+   "name": "Hazelight Studios",
+   "city": "Стокгольм",
+   "country": "Швеція",
+   "foundedYear": 2014,
+   "website": "https://www.hazelight.se"
+  },
+  {
+   "name": "Mediatonic",
+   "city": "Лондон",
+   "country": "Велика Британія",
+   "foundedYear": 2005,
+   "website": "https://www.mediatonic.co.uk"
+  },
+  {
+   "name": "Facepunch Studios",
+   "city": "Волсолл",
+   "country": "Велика Британія",
+   "foundedYear": 2004,
+   "website": "https://facepunch.com"
+  },
+  {
+   "name": "World’s Edge",
+   "city": "Редмонд",
+   "country": "США",
+   "foundedYear": null,
+   "website": "https://www.ageofempires.com"
+  },
+  {
+   "name": "HAL Laboratory",
+   "city": "Токіо",
+   "country": "Японія",
+   "foundedYear": 1980,
+   "website": "https://www.hallab.co.jp"
+  },
+  {
+   "name": "Game Freak",
+   "city": "Токіо",
+   "country": "Японія",
+   "foundedYear": 1989,
+   "website": "https://www.gamefreak.co.jp"
+  },
+  {
+   "name": "Sora Ltd.",
+   "city": "Токіо",
+   "country": "Японія",
+   "foundedYear": 2005,
+   "website": null
+  },
+  {
+   "name": "id Software",
+   "city": "Річардсон",
+   "country": "США",
+   "foundedYear": 1991,
+   "website": "https://www.idsoftware.com"
+  },
+  {
+   "name": "Moon Studios",
+   "city": "Відень",
+   "country": "Австрія",
+   "foundedYear": 2010,
+   "website": null
+  },
+  {
+   "name": "Rare",
+   "city": "Твайкросс",
+   "country": "Велика Британія",
+   "foundedYear": 1985,
+   "website": "https://www.rare.co.uk"
+  },
+  {
+   "name": "Squad",
+   "city": "Мехіко",
+   "country": "Мексика",
+   "foundedYear": null,
+   "website": "https://www.kerbalspaceprogram.com"
+  },
+  {
+   "name": "Remedy Entertainment",
+   "city": "Еспоо",
+   "country": "Фінляндія",
+   "foundedYear": 1995,
+   "website": "https://www.remedygames.com"
+  },
+  {
+   "name": "Santa Monica Studio",
+   "city": "Санта-Моніка",
+   "country": "США",
+   "foundedYear": 1999,
+   "website": "https://sms.playstation.com"
+  },
+  {
+   "name": "Polyphony Digital",
+   "city": "Токіо",
+   "country": "Японія",
+   "foundedYear": 1998,
+   "website": "https://www.polyphony.co.jp"
+  },
+  {
+   "name": "Ubisoft Montpellier",
+   "city": "Монпельє",
+   "country": "Франція",
+   "foundedYear": 1994,
+   "website": "https://www.ubisoft.com"
+  },
+  {
+   "name": "Bethesda Game Studios",
+   "city": "Роквілл",
+   "country": "США",
+   "foundedYear": 2001,
+   "website": "https://bethesda.net"
+  },
+  {
+   "name": "Guerrilla Games",
+   "city": "Амстердам",
+   "country": "Нідерланди",
+   "foundedYear": 1993,
+   "website": "https://www.guerrilla-games.com"
+  },
+  {
+   "name": "Sonic Team",
+   "city": "Токіо",
+   "country": "Японія",
+   "foundedYear": null,
+   "website": null
+  }
+ ],
+ "games": [
+  {
+   "title": "The Witcher 3: Wild Hunt",
+   "developer": "CD PROJEKT RED",
+   "fileSizeGb": 50.0,
+   "releaseDate": "2015-05-19",
+   "ageRating": "18+",
+   "price": 949.0,
+   "genres": [
+    "RPG",
+    "Екшн",
+    "Відкритий світ",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Мисливець на чудовиськ Геральт шукає прийомну доньку в величезному фентезійному світі, повному вибору та наслідків.",
+   "officialUrl": "https://www.thewitcher.com/en/witcher3",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg"
+  },
+  {
+   "title": "Cyberpunk 2077",
+   "developer": "CD PROJEKT RED",
+   "fileSizeGb": 70.0,
+   "releaseDate": "2020-12-10",
+   "ageRating": "18+",
+   "price": 1399.0,
+   "genres": [
+    "RPG",
+    "Екшн",
+    "Відкритий світ",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "description": "Рольовий бойовик у місті майбутнього Найт-Сіті: імпланти, корпорації та вибір, ким стати.",
+   "officialUrl": "https://www.cyberpunk.net",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg"
+  },
+  {
+   "title": "Hades",
+   "developer": "Supergiant Games",
+   "fileSizeGb": 15.0,
+   "releaseDate": "2020-09-17",
+   "ageRating": "12+",
+   "price": 515.0,
+   "genres": [
+    "Екшн",
+    "Інді",
+    "RPG",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Син володаря підземного світу прориває собі шлях нагору. Кожна втеча інша, а історія розкривається з кожною спробою.",
+   "officialUrl": "https://www.supergiantgames.com/games/hades/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg"
+  },
+  {
+   "title": "Stardew Valley",
+   "developer": "ConcernedApe",
+   "fileSizeGb": 0.5,
+   "releaseDate": "2016-02-26",
+   "ageRating": "7+",
+   "price": 229.0,
+   "genres": [
+    "Симулятор",
+    "Інді",
+    "RPG",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Спадкова ферма, мешканці містечка, рибалка, шахти та неквапливе життя за власним розкладом.",
+   "officialUrl": "https://www.stardewvalley.net",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg"
+  },
+  {
+   "title": "Portal 2",
+   "developer": "Valve",
+   "fileSizeGb": 12.0,
+   "releaseDate": "2011-04-19",
+   "ageRating": "12+",
+   "price": 225.0,
+   "genres": [
+    "Головоломка",
+    "Пригоди",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "description": "Головоломки з порталами, дотепний сюжет і кооперативний режим для двох гравців.",
+   "officialUrl": "https://www.thinkwithportals.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg"
+  },
+  {
+   "title": "Celeste",
+   "developer": "Maddy Makes Games",
+   "fileSizeGb": 1.2,
+   "releaseDate": "2018-01-25",
+   "ageRating": "7+",
+   "price": 245.0,
+   "genres": [
+    "Платформер",
+    "Інді",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Складний, але щирий платформер про підкорення гори та боротьбу з власними сумнівами.",
+   "officialUrl": "https://www.celestegame.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg"
+  },
+  {
+   "title": "Forza Horizon 5",
+   "developer": "Playground Games",
+   "fileSizeGb": 110.0,
+   "releaseDate": "2021-11-09",
+   "ageRating": "3+",
+   "price": 1299.0,
+   "genres": [
+    "Перегони",
+    "Відкритий світ",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "Xbox Series X|S"
+   ],
+   "description": "Фестиваль перегонів у сонячній Мексиці: сотні автомобілів, бездоріжжя та вільне дослідження карти.",
+   "officialUrl": "https://forza.net/horizon",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/header.jpg"
+  },
+  {
+   "title": "Hollow Knight",
+   "developer": "Team Cherry",
+   "fileSizeGb": 9.0,
+   "releaseDate": "2017-02-24",
+   "ageRating": "7+",
+   "price": 325.0,
+   "genres": [
+    "Платформер",
+    "Інді",
+    "Пригоди",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Намальований від руки підземний світ комах, складні боси та багато таємниць.",
+   "officialUrl": "https://www.hollowknight.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg"
+  },
+  {
+   "title": "Sid Meier’s Civilization VI",
+   "developer": "Firaxis Games",
+   "fileSizeGb": 17.0,
+   "releaseDate": "2016-10-21",
+   "ageRating": "12+",
+   "price": 1199.0,
+   "genres": [
+    "Стратегія",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Побудуйте цивілізацію від кам’яної доби до космічної ери: міста, дипломатія, технології.",
+   "officialUrl": "https://civilization.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/289070/header.jpg"
+  },
+  {
+   "title": "Resident Evil 4",
+   "developer": "Capcom",
+   "fileSizeGb": 60.0,
+   "releaseDate": "2023-03-24",
+   "ageRating": "18+",
+   "price": 1200.0,
+   "genres": [
+    "Жахи",
+    "Екшн",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "description": "Агент Леон рятує доньку президента в глухому європейському селі, де на нього полює ціле селище.",
+   "officialUrl": "https://www.residentevil.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/header.jpg"
+  },
+  {
+   "title": "The Legend of Zelda: Breath of the Wild",
+   "developer": "Nintendo",
+   "fileSizeGb": 14.0,
+   "releaseDate": "2017-03-03",
+   "ageRating": "12+",
+   "price": 2499.0,
+   "genres": [
+    "Пригоди",
+    "Відкритий світ",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "Nintendo Switch"
+   ],
+   "description": "Лінк прокидається у зруйнованому королівстві Гайрул. Все видно на горизонті — можна йти куди завгодно.",
+   "officialUrl": "https://www.zelda.com/breath-of-the-wild/",
+   "imageUrl": null
+  },
+  {
+   "title": "Counter-Strike 2",
+   "developer": "Valve",
+   "fileSizeGb": 30.0,
+   "releaseDate": "2023-09-27",
+   "ageRating": "16+",
+   "price": 0.0,
+   "genres": [
+    "Шутер",
+    "Мультиплеєр"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "description": "Командний тактичний шутер: дві команди, раунди та купівля зброї. Безкоштовна гра.",
+   "officialUrl": "https://www.counter-strike.net",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg"
+  },
+  {
+   "title": "Elden Ring",
+   "developer": "FromSoftware",
+   "fileSizeGb": 60.0,
+   "releaseDate": "2022-02-25",
+   "ageRating": "16+",
+   "price": 1799.0,
+   "genres": [
+    "RPG",
+    "Екшн",
+    "Відкритий світ",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "description": "Фентезійний екшн-RPG від FromSoftware зі світом, створеним у співпраці з Джорджем Р. Р. Мартіном: Міжземелля, складні боси та свобода маршруту.",
+   "officialUrl": "https://en.bandainamcoent.eu/elden-ring/elden-ring",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg"
+  },
+  {
+   "title": "Baldur’s Gate 3",
+   "developer": "Larian Studios",
+   "fileSizeGb": 150.0,
+   "releaseDate": "2023-08-03",
+   "ageRating": "18+",
+   "price": 899.0,
+   "genres": [
+    "RPG",
+    "Стратегія",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "description": "Покрокова RPG за правилами Dungeons & Dragons: загін шукачів пригод, прибульці-ілліміди в головах і вибори, що змінюють історію. Є кооператив до 4 гравців.",
+   "officialUrl": "https://baldursgate3.game",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg"
+  },
+  {
+   "title": "Red Dead Redemption 2",
+   "developer": "Rockstar Games",
+   "fileSizeGb": 120.0,
+   "releaseDate": "2018-10-26",
+   "ageRating": "18+",
+   "price": 1799.0,
+   "genres": [
+    "Екшн",
+    "Пригоди",
+    "Відкритий світ",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "description": "Дикий Захід 1899 року: банда Датча ван дер Лінде тікає від закону, а Артур Морган обирає, на чийому він боці.",
+   "officialUrl": "https://www.rockstargames.com/reddeadredemption2",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg"
+  },
+  {
+   "title": "Grand Theft Auto V",
+   "developer": "Rockstar Games",
+   "fileSizeGb": 110.0,
+   "releaseDate": "2013-09-17",
+   "ageRating": "18+",
+   "price": 799.0,
+   "genres": [
+    "Екшн",
+    "Відкритий світ",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "description": "Три героя, Лос-Сантос і пограбування в сюжетній кампанії, а також мережевий режим GTA Online.",
+   "officialUrl": "https://www.rockstargames.com/gta-v",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg"
+  },
+  {
+   "title": "Sekiro: Shadows Die Twice",
+   "developer": "FromSoftware",
+   "fileSizeGb": 15.0,
+   "releaseDate": "2019-03-22",
+   "ageRating": "16+",
+   "price": 1599.0,
+   "genres": [
+    "Екшн",
+    "Пригоди",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "description": "Шинобі «Вовк» мститься в Японії періоду Сенґоку: дуелі на мечах, механіка стійкості й складні боси.",
+   "officialUrl": "https://www.sekirothegame.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg"
+  },
+  {
+   "title": "Hogwarts Legacy",
+   "developer": "Avalanche Software",
+   "fileSizeGb": 85.0,
+   "releaseDate": "2023-02-10",
+   "ageRating": "16+",
+   "price": 1999.0,
+   "genres": [
+    "RPG",
+    "Екшн",
+    "Відкритий світ",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Рольова гра у світі Гаррі Поттера XIX століття: навчання в Гоґвортсі, заклинання та дослідження околиць.",
+   "officialUrl": "https://www.hogwartslegacy.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg"
+  },
+  {
+   "title": "Terraria",
+   "developer": "Re-Logic",
+   "fileSizeGb": 0.2,
+   "releaseDate": "2011-05-16",
+   "ageRating": "12+",
+   "price": 150.0,
+   "genres": [
+    "Пригоди",
+    "Інді",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "Nintendo Switch"
+   ],
+   "description": "Двовимірна пісочниця: копайте, будуйте, крафтьте й б’йтеся з босами самі чи з друзями.",
+   "officialUrl": "https://terraria.org",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg"
+  },
+  {
+   "title": "Minecraft",
+   "developer": "Mojang Studios",
+   "fileSizeGb": 1.0,
+   "releaseDate": "2011-11-18",
+   "ageRating": "7+",
+   "price": 899.0,
+   "genres": [
+    "Симулятор",
+    "Пригоди",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Кубічний світ, у якому можна виживати, будувати та досліджувати. Підтримує мережеву гру й спільні світи.",
+   "officialUrl": "https://www.minecraft.net",
+   "imageUrl": null
+  },
+  {
+   "title": "Among Us",
+   "developer": "Innersloth",
+   "fileSizeGb": 0.3,
+   "releaseDate": "2018-06-15",
+   "ageRating": "7+",
+   "price": 110.0,
+   "genres": [
+    "Головоломка",
+    "Мультиплеєр"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Командна гра на дедукцію: члени екіпажу виконують завдання, а серед них ховаються самозванці.",
+   "officialUrl": "https://www.innersloth.com/games/among-us/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg"
+  },
+  {
+   "title": "Rocket League",
+   "developer": "Psyonix",
+   "fileSizeGb": 20.0,
+   "releaseDate": "2015-07-07",
+   "ageRating": "3+",
+   "price": 0.0,
+   "genres": [
+    "Перегони",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Футбол на ракетних автомобілях: швидкі матчі, акробатика й мережеві режими. Безкоштовна гра.",
+   "officialUrl": "https://www.rocketleague.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg"
+  },
+  {
+   "title": "Fortnite",
+   "developer": "Epic Games",
+   "fileSizeGb": 30.0,
+   "releaseDate": "2017-07-21",
+   "ageRating": "12+",
+   "price": 0.0,
+   "genres": [
+    "Шутер",
+    "Мультиплеєр"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Безкоштовна мережева гра: королівська битва на 100 гравців, будівництво та сезонні події.",
+   "officialUrl": "https://www.fortnite.com",
+   "imageUrl": null
+  },
+  {
+   "title": "Apex Legends",
+   "developer": "Respawn Entertainment",
+   "fileSizeGb": 60.0,
+   "releaseDate": "2019-02-04",
+   "ageRating": "16+",
+   "price": 0.0,
+   "genres": [
+    "Шутер",
+    "Мультиплеєр"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Командна королівська битва від першої особи з унікальними героями-«легендами». Безкоштовна гра.",
+   "officialUrl": "https://www.ea.com/games/apex-legends",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1172470/header.jpg"
+  },
+  {
+   "title": "Half-Life 2",
+   "developer": "Valve",
+   "fileSizeGb": 10.0,
+   "releaseDate": "2004-11-16",
+   "ageRating": "16+",
+   "price": 199.0,
+   "genres": [
+    "Шутер",
+    "Пригоди",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "description": "Гордон Фрімен повертається в місто, окуповане інопланетною імперією. Класика шутерів із фізичною гарматою.",
+   "officialUrl": "https://www.half-life.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/220/header.jpg"
+  },
+  {
+   "title": "Portal",
+   "developer": "Valve",
+   "fileSizeGb": 3.0,
+   "releaseDate": "2007-10-10",
+   "ageRating": "12+",
+   "price": 199.0,
+   "genres": [
+    "Головоломка",
+    "Пригоди",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "description": "Гармата для створення порталів, тестові камери Aperture Science і саркастичний штучний інтелект GLaDOS.",
+   "officialUrl": "https://www.thinkwithportals.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/400/header.jpg"
+  },
+  {
+   "title": "Left 4 Dead 2",
+   "developer": "Valve",
+   "fileSizeGb": 15.0,
+   "releaseDate": "2009-11-17",
+   "ageRating": "18+",
+   "price": 199.0,
+   "genres": [
+    "Шутер",
+    "Жахи",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "description": "Кооперативний шутер про вижилих у зомбі-апокаліпсисі: чотири гравці проходять кампанії разом.",
+   "officialUrl": "https://www.l4d.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/550/header.jpg"
+  },
+  {
+   "title": "Cuphead",
+   "developer": "Studio MDHR",
+   "fileSizeGb": 4.0,
+   "releaseDate": "2017-09-29",
+   "ageRating": "7+",
+   "price": 349.0,
+   "genres": [
+    "Платформер",
+    "Екшн",
+    "Інді",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Складний run-and-gun у стилі мультфільмів 1930-х: боси, ручна анімація та кооператив на двох.",
+   "officialUrl": "https://www.cupheadgame.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg"
+  },
+  {
+   "title": "Disco Elysium",
+   "developer": "ZA/UM",
+   "fileSizeGb": 20.0,
+   "releaseDate": "2019-10-15",
+   "ageRating": "18+",
+   "price": 799.0,
+   "genres": [
+    "RPG",
+    "Пригоди",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Детективна RPG без бойової системи: ви — детектив із втраченою пам’яттю, а навички в голові сперечаються між собою.",
+   "officialUrl": "https://discoelysium.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/632470/header.jpg"
+  },
+  {
+   "title": "Stellaris",
+   "developer": "Paradox Development Studio",
+   "fileSizeGb": 12.0,
+   "releaseDate": "2016-05-09",
+   "ageRating": "12+",
+   "price": 799.0,
+   "genres": [
+    "Стратегія",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "description": "Глобальна космічна стратегія: власна імперія, дослідження галактики, дипломатія й війни.",
+   "officialUrl": "https://www.paradoxinteractive.com/games/stellaris/about",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/281990/header.jpg"
+  },
+  {
+   "title": "Cities: Skylines",
+   "developer": "Colossal Order",
+   "fileSizeGb": 4.0,
+   "releaseDate": "2015-03-10",
+   "ageRating": "3+",
+   "price": 599.0,
+   "genres": [
+    "Симулятор",
+    "Стратегія",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "Nintendo Switch"
+   ],
+   "description": "Містобудівний симулятор: дороги, райони, транспорт і комунальні служби.",
+   "officialUrl": "https://www.paradoxinteractive.com/games/cities-skylines/about",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/255710/header.jpg"
+  },
+  {
+   "title": "Euro Truck Simulator 2",
+   "developer": "SCS Software",
+   "fileSizeGb": 5.0,
+   "releaseDate": "2012-10-19",
+   "ageRating": "3+",
+   "price": 349.0,
+   "genres": [
+    "Симулятор",
+    "Перегони",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "description": "Вантажні перевезення Європою: власна компанія, мальовничі траси та мультиплеєр через модифікації.",
+   "officialUrl": "https://eurotrucksimulator2.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/227300/header.jpg"
+  },
+  {
+   "title": "Overcooked! 2",
+   "developer": "Ghost Town Games",
+   "fileSizeGb": 3.0,
+   "releaseDate": "2018-08-07",
+   "ageRating": "3+",
+   "price": 399.0,
+   "genres": [
+    "Симулятор",
+    "Інді",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "Nintendo Switch"
+   ],
+   "description": "Хаотична кухня для компанії: до 4 гравців разом готують страви на дедалі божевільніших локаціях.",
+   "officialUrl": "https://store.steampowered.com/app/728880/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/728880/header.jpg"
+  },
+  {
+   "title": "It Takes Two",
+   "developer": "Hazelight Studios",
+   "fileSizeGb": 50.0,
+   "releaseDate": "2021-03-26",
+   "ageRating": "12+",
+   "price": 1099.0,
+   "genres": [
+    "Пригоди",
+    "Платформер",
+    "Мультиплеєр"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Пригода, створена виключно для двох гравців: подружжя, яке перетворили на ляльок, мусить співпрацювати.",
+   "officialUrl": "https://www.ea.com/games/it-takes-two",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/header.jpg"
+  },
+  {
+   "title": "Fall Guys",
+   "developer": "Mediatonic",
+   "fileSizeGb": 15.0,
+   "releaseDate": "2020-08-04",
+   "ageRating": "3+",
+   "price": 0.0,
+   "genres": [
+    "Платформер",
+    "Мультиплеєр"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Кумедні масові перегони з перешкодами: 60 гравців, одна корона. Безкоштовна гра.",
+   "officialUrl": "https://www.fallguys.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1097150/header.jpg"
+  },
+  {
+   "title": "Rust",
+   "developer": "Facepunch Studios",
+   "fileSizeGb": 25.0,
+   "releaseDate": "2018-02-08",
+   "ageRating": "18+",
+   "price": 799.0,
+   "genres": [
+    "Екшн",
+    "Симулятор",
+    "Мультиплеєр"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "description": "Мережева гра на виживання: єдина мета — прожити в жорстокому світі, будуючи бази та співпрацюючи чи воюючи з іншими.",
+   "officialUrl": "https://rust.facepunch.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg"
+  },
+  {
+   "title": "Age of Empires II: Definitive Edition",
+   "developer": "World’s Edge",
+   "fileSizeGb": 40.0,
+   "releaseDate": "2019-11-14",
+   "ageRating": "12+",
+   "price": 449.0,
+   "genres": [
+    "Стратегія",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "Xbox Series X|S"
+   ],
+   "description": "Оновлене видання класичної стратегії реального часу: цивілізації середньовіччя та онлайн-битви.",
+   "officialUrl": "https://www.ageofempires.com/games/aoeiide/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg"
+  },
+  {
+   "title": "Mario Kart 8 Deluxe",
+   "developer": "Nintendo",
+   "fileSizeGb": 7.0,
+   "releaseDate": "2017-04-28",
+   "ageRating": "0+",
+   "price": 2599.0,
+   "genres": [
+    "Перегони",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "Nintendo Switch"
+   ],
+   "description": "Перегони з бонусами за участю героїв Nintendo: локальний мультиплеєр на одній консолі та онлайн. Рейтинг USK 0.",
+   "officialUrl": "https://mariokart8.nintendo.com",
+   "imageUrl": null
+  },
+  {
+   "title": "Animal Crossing: New Horizons",
+   "developer": "Nintendo",
+   "fileSizeGb": 6.0,
+   "releaseDate": "2020-03-20",
+   "ageRating": "0+",
+   "price": 2399.0,
+   "genres": [
+    "Симулятор",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "Nintendo Switch"
+   ],
+   "description": "Спокійне життя на безлюдному острові: розвивайте селище, збирайте ресурси й запрошуйте друзів. Рейтинг USK 0.",
+   "officialUrl": "https://animal-crossing.com/new-horizons/",
+   "imageUrl": null
+  },
+  {
+   "title": "Splatoon 3",
+   "developer": "Nintendo",
+   "fileSizeGb": 6.0,
+   "releaseDate": "2022-09-09",
+   "ageRating": "7+",
+   "price": 2499.0,
+   "genres": [
+    "Шутер",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "Nintendo Switch"
+   ],
+   "description": "Командний шутер з чорнильними бластерами: закрашуйте територію та перемагайте суперників.",
+   "officialUrl": "https://splatoon.nintendo.com",
+   "imageUrl": null
+  },
+  {
+   "title": "Super Smash Bros. Ultimate",
+   "developer": "Sora Ltd.",
+   "fileSizeGb": 16.0,
+   "releaseDate": "2018-12-07",
+   "ageRating": "12+",
+   "price": 2499.0,
+   "genres": [
+    "Екшн",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "Nintendo Switch"
+   ],
+   "description": "Файтинг-платформер, де зустрічаються герої багатьох серій. Підтримує до восьми гравців.",
+   "officialUrl": "https://www.smashbros.com",
+   "imageUrl": null
+  },
+  {
+   "title": "Dark Souls III",
+   "developer": "FromSoftware",
+   "fileSizeGb": 25.0,
+   "releaseDate": "2016-04-12",
+   "ageRating": "16+",
+   "price": 1199.0,
+   "genres": [
+    "RPG",
+    "Екшн",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "description": "Фінальна частина серії: похмурий фентезійний світ, складні бої та асинхронний мультиплеєр.",
+   "officialUrl": "https://store.steampowered.com/app/374320/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg"
+  },
+  {
+   "title": "DOOM Eternal",
+   "developer": "id Software",
+   "fileSizeGb": 80.0,
+   "releaseDate": "2020-03-20",
+   "ageRating": "18+",
+   "price": 799.0,
+   "genres": [
+    "Шутер",
+    "Екшн",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Швидкісний шутер: Убивця Року знищує вторгнення демонів, комбінуючи зброю, рухи та добивання.",
+   "officialUrl": "https://store.steampowered.com/app/782330/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg"
+  },
+  {
+   "title": "Ori and the Will of the Wisps",
+   "developer": "Moon Studios",
+   "fileSizeGb": 12.0,
+   "releaseDate": "2020-03-11",
+   "ageRating": "12+",
+   "price": 599.0,
+   "genres": [
+    "Платформер",
+    "Пригоди",
+    "Інді",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Мальовничий платформер про світляну істоту Орі, що шукає свій шлях у лісі Ніванні.",
+   "officialUrl": "https://www.orithegame.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1057090/header.jpg"
+  },
+  {
+   "title": "Sea of Thieves",
+   "developer": "Rare",
+   "fileSizeGb": 40.0,
+   "releaseDate": "2018-03-20",
+   "ageRating": "12+",
+   "price": 999.0,
+   "genres": [
+    "Пригоди",
+    "Відкритий світ",
+    "Мультиплеєр"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "description": "Піратська пригода в спільному світі: екіпаж, корабель, скарби та шторми.",
+   "officialUrl": "https://www.seaofthieves.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg"
+  },
+  {
+   "title": "Kerbal Space Program",
+   "developer": "Squad",
+   "fileSizeGb": 3.0,
+   "releaseDate": "2015-04-27",
+   "ageRating": "3+",
+   "price": 549.0,
+   "genres": [
+    "Симулятор",
+    "Інді",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "description": "Космічна програма зелених кербалів: будуйте ракети, вирушайте на орбіту та досліджуйте планети.",
+   "officialUrl": "https://www.kerbalspaceprogram.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/220200/header.jpg"
+  },
+  {
+   "title": "Super Mario Odyssey",
+   "developer": "Nintendo",
+   "fileSizeGb": 6.0,
+   "releaseDate": "2017-10-27",
+   "ageRating": "7+",
+   "price": 2499.0,
+   "genres": [
+    "Платформер",
+    "Пригоди",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "Nintendo Switch"
+   ],
+   "description": "Маріо з капелюхом Кеппі подорожує світами, щоб урятувати принцесу Піч від Баузера.",
+   "officialUrl": null,
+   "imageUrl": null
+  },
+  {
+   "title": "Super Mario Bros. Wonder",
+   "developer": "Nintendo",
+   "fileSizeGb": 3.0,
+   "releaseDate": "2023-10-20",
+   "ageRating": "3+",
+   "price": 2499.0,
+   "genres": [
+    "Платформер",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "Nintendo Switch"
+   ],
+   "description": "Двовимірний Маріо з несподіваними «чудесами» на рівнях і кооперативом до чотирьох гравців.",
+   "officialUrl": null,
+   "imageUrl": null
+  },
+  {
+   "title": "Kirby and the Forgotten Land",
+   "developer": "HAL Laboratory",
+   "fileSizeGb": 6.0,
+   "releaseDate": "2022-03-25",
+   "ageRating": "3+",
+   "price": 2499.0,
+   "genres": [
+    "Платформер",
+    "Пригоди",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "Nintendo Switch"
+   ],
+   "description": "Перша повністю тривимірна пригода Кірбі в закинутому світі; можна грати вдвох.",
+   "officialUrl": null,
+   "imageUrl": null
+  },
+  {
+   "title": "Pokémon Legends: Arceus",
+   "developer": "Game Freak",
+   "fileSizeGb": 8.0,
+   "releaseDate": "2022-01-28",
+   "ageRating": "7+",
+   "price": 2499.0,
+   "genres": [
+    "RPG",
+    "Пригоди",
+    "Відкритий світ",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "Nintendo Switch"
+   ],
+   "description": "Дослідження древнього регіону Хісуй і створення першого Покедексу.",
+   "officialUrl": null,
+   "imageUrl": null
+  },
+  {
+   "title": "Metroid Dread",
+   "developer": "Nintendo",
+   "fileSizeGb": 5.0,
+   "releaseDate": "2021-10-08",
+   "ageRating": "12+",
+   "price": 2399.0,
+   "genres": [
+    "Платформер",
+    "Екшн",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "Nintendo Switch"
+   ],
+   "description": "Самус Аран на планеті ZDR переслідують невмиручі роботи E.M.M.I. Класичний «метроідваніа» з тривимірною графікою.",
+   "officialUrl": null,
+   "imageUrl": null
+  },
+  {
+   "title": "Control",
+   "developer": "Remedy Entertainment",
+   "fileSizeGb": 42.0,
+   "releaseDate": "2019-08-27",
+   "ageRating": "16+",
+   "price": 749.0,
+   "genres": [
+    "Екшн",
+    "Пригоди",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "description": "Джессі Фейден керує таємним Федеральним бюро контролю, де реальність спотворена надприродними силами.",
+   "officialUrl": "https://www.remedygames.com",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/870780/header.jpg"
+  },
+  {
+   "title": "Alan Wake 2",
+   "developer": "Remedy Entertainment",
+   "fileSizeGb": 90.0,
+   "releaseDate": "2023-10-27",
+   "ageRating": "18+",
+   "price": 1499.0,
+   "genres": [
+    "Жахи",
+    "Пригоди",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "description": "Психологічний хорор: агентка ФБР Сага Андерсон і письменник Алан Вейк, затриманий у Темному місці.",
+   "officialUrl": "https://www.alanwake.com",
+   "imageUrl": null
+  },
+  {
+   "title": "God of War",
+   "developer": "Santa Monica Studio",
+   "fileSizeGb": 70.0,
+   "releaseDate": "2018-04-20",
+   "ageRating": "18+",
+   "price": 1499.0,
+   "genres": [
+    "Екшн",
+    "Пригоди",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5"
+   ],
+   "description": "Кратос і його син Атрей мандрують скандинавськими землями, щоб розвіяти прах дружини.",
+   "officialUrl": "https://www.playstation.com/games/god-of-war/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/header.jpg"
+  },
+  {
+   "title": "Rayman Legends",
+   "developer": "Ubisoft Montpellier",
+   "fileSizeGb": 2.0,
+   "releaseDate": "2013-08-29",
+   "ageRating": "7+",
+   "price": 449.0,
+   "genres": [
+    "Платформер",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "Nintendo Switch"
+   ],
+   "description": "Яскравий платформер із музичними рівнями та кооперативом до чотирьох гравців.",
+   "officialUrl": "https://store.steampowered.com/app/242550/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/242550/header.jpg"
+  },
+  {
+   "title": "The Elder Scrolls V: Skyrim Special Edition",
+   "developer": "Bethesda Game Studios",
+   "fileSizeGb": 12.0,
+   "releaseDate": "2016-10-28",
+   "ageRating": "18+",
+   "price": 799.0,
+   "genres": [
+    "RPG",
+    "Екшн",
+    "Відкритий світ",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Довакін, останній із драконорожденних, подорожує засніженим Скайримом і б’ється з драконами.",
+   "officialUrl": "https://store.steampowered.com/app/489830/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/489830/header.jpg"
+  },
+  {
+   "title": "Horizon Zero Dawn",
+   "developer": "Guerrilla Games",
+   "fileSizeGb": 100.0,
+   "releaseDate": "2017-02-28",
+   "ageRating": "16+",
+   "price": 1099.0,
+   "genres": [
+    "Екшн",
+    "RPG",
+    "Відкритий світ",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5"
+   ],
+   "description": "Мисливиця Елой у світі, де домінують машини-звірі, шукає розгадку свого походження.",
+   "officialUrl": "https://store.steampowered.com/app/1151640/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1151640/header.jpg"
+  },
+  {
+   "title": "Minecraft Dungeons",
+   "developer": "Mojang Studios",
+   "fileSizeGb": null,
+   "releaseDate": "2020-05-26",
+   "ageRating": "7+",
+   "price": 549.0,
+   "genres": [
+    "Екшн",
+    "Пригоди",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Екшн-пригода у світі Minecraft: підземелля, здобич і кооператив до чотирьох гравців.",
+   "officialUrl": "https://store.steampowered.com/app/1672970/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1672970/header.jpg"
+  },
+  {
+   "title": "Sonic Frontiers",
+   "developer": "Sonic Team",
+   "fileSizeGb": null,
+   "releaseDate": "2022-11-08",
+   "ageRating": "7+",
+   "price": 1599.0,
+   "genres": [
+    "Платформер",
+    "Екшн",
+    "Відкритий світ",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X|S",
+    "Nintendo Switch"
+   ],
+   "description": "Їжак Сонік на загадкових Островах Стародавніх: швидкість, бої та відкритий світ.",
+   "officialUrl": "https://store.steampowered.com/app/1237320/",
+   "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1237320/header.jpg"
+  },
+  {
+   "title": "Gran Turismo 7",
+   "developer": "Polyphony Digital",
+   "fileSizeGb": 110.0,
+   "releaseDate": "2022-03-04",
+   "ageRating": "3+",
+   "price": 2199.0,
+   "genres": [
+    "Перегони",
+    "Симулятор",
+    "Мультиплеєр",
+    "Одиночна гра"
+   ],
+   "platforms": [
+    "PlayStation 5"
+   ],
+   "description": "Автосимулятор для ентузіастів: понад 400 автомобілів, кар’єра й онлайн-змагання.",
+   "officialUrl": "https://www.gran-turismo.com",
+   "imageUrl": null
+  }
+ ]
+}

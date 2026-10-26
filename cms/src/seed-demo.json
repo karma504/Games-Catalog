@@ -1,0 +1,1698 @@
+{
+ "password": "Demo-pass-123",
+ "users": [
+  {
+   "key": "user1",
+   "email": "user1@example.com",
+   "firstName": "Олена",
+   "lastName": null,
+   "age": null
+  },
+  {
+   "key": "user2",
+   "email": "user2@example.com",
+   "firstName": "Тарас",
+   "lastName": null,
+   "age": null
+  },
+  {
+   "key": "kid1",
+   "email": "kid1@example.com",
+   "firstName": "Малюк (1 рік)",
+   "lastName": null,
+   "age": 1
+  },
+  {
+   "key": "kid3",
+   "email": "kid3@example.com",
+   "firstName": "Дошкільня (3 роки)",
+   "lastName": null,
+   "age": 3
+  },
+  {
+   "key": "teen12",
+   "email": "teen12@example.com",
+   "firstName": "Підліток (12 років)",
+   "lastName": null,
+   "age": 12
+  },
+  {
+   "key": "oksana",
+   "email": "oksana.melnyk@example.com",
+   "firstName": "Оксана",
+   "lastName": "Мельник",
+   "age": 29
+  },
+  {
+   "key": "andriy",
+   "email": "andriy.kovalenko@example.com",
+   "firstName": "Андрій",
+   "lastName": "Коваленко",
+   "age": 34
+  },
+  {
+   "key": "iryna",
+   "email": "iryna.bondarenko@example.com",
+   "firstName": "Ірина",
+   "lastName": "Бондаренко",
+   "age": 27
+  },
+  {
+   "key": "dmytro",
+   "email": "dmytro.shevchenko@example.com",
+   "firstName": "Дмитро",
+   "lastName": "Шевченко",
+   "age": 22
+  },
+  {
+   "key": "maria",
+   "email": "maria.tkachenko@example.com",
+   "firstName": "Марія",
+   "lastName": "Ткаченко",
+   "age": 31
+  },
+  {
+   "key": "taras",
+   "email": "taras.kravchenko@example.com",
+   "firstName": "Тарас",
+   "lastName": "Кравченко",
+   "age": 25
+  },
+  {
+   "key": "sofiia",
+   "email": "sofiia.oliinyk@example.com",
+   "firstName": "Софія",
+   "lastName": "Олійник",
+   "age": 19
+  },
+  {
+   "key": "bohdan",
+   "email": "bohdan.lysenko@example.com",
+   "firstName": "Богдан",
+   "lastName": "Лисенко",
+   "age": 38
+  },
+  {
+   "key": "yulia",
+   "email": "yulia.moroz@example.com",
+   "firstName": "Юлія",
+   "lastName": "Мороз",
+   "age": 26
+  },
+  {
+   "key": "volodymyr",
+   "email": "volodymyr.savchenko@example.com",
+   "firstName": "Володимир",
+   "lastName": "Савченко",
+   "age": 42
+  },
+  {
+   "key": "kateryna",
+   "email": "kateryna.polishchuk@example.com",
+   "firstName": "Катерина",
+   "lastName": "Поліщук",
+   "age": 23
+  },
+  {
+   "key": "ihor",
+   "email": "ihor.rudenko@example.com",
+   "firstName": "Ігор",
+   "lastName": "Руденко",
+   "age": 30
+  },
+  {
+   "key": "nataliia",
+   "email": "nataliia.havrylenko@example.com",
+   "firstName": "Наталія",
+   "lastName": "Гавриленко",
+   "age": 35
+  },
+  {
+   "key": "max",
+   "email": "max.hrytsenko@example.com",
+   "firstName": "Максим",
+   "lastName": "Гриценко",
+   "age": 17
+  },
+  {
+   "key": "anna",
+   "email": "anna.vasylenko@example.com",
+   "firstName": "Анна",
+   "lastName": "Василенко",
+   "age": 16
+  },
+  {
+   "key": "artem",
+   "email": "artem.zinchenko@example.com",
+   "firstName": "Артем",
+   "lastName": "Зінченко",
+   "age": 14
+  },
+  {
+   "key": "polina",
+   "email": "polina.ivanchenko@example.com",
+   "firstName": "Поліна",
+   "lastName": "Іванченко",
+   "age": 15
+  },
+  {
+   "key": "daryna",
+   "email": "daryna.marchenko@example.com",
+   "firstName": "Дарина",
+   "lastName": "Марченко",
+   "age": 12
+  },
+  {
+   "key": "mykyta",
+   "email": "mykyta.kuzmenko@example.com",
+   "firstName": "Микита",
+   "lastName": "Кузьменко",
+   "age": 10
+  },
+  {
+   "key": "ostap",
+   "email": "ostap.dovzhenko@example.com",
+   "firstName": "Остап",
+   "lastName": "Довженко",
+   "age": 20
+  },
+  {
+   "key": "liliia",
+   "email": "liliia.panchenko@example.com",
+   "firstName": "Лілія",
+   "lastName": "Панченко",
+   "age": 28
+  },
+  {
+   "key": "roman",
+   "email": "roman.pavlenko@example.com",
+   "firstName": "Роман",
+   "lastName": "Павленко",
+   "age": 33
+  },
+  {
+   "key": "veronika",
+   "email": "veronika.shapoval@example.com",
+   "firstName": "Вероніка",
+   "lastName": "Шаповал",
+   "age": 21
+  },
+  {
+   "key": "serhii",
+   "email": "serhii.yaremenko@example.com",
+   "firstName": "Сергій",
+   "lastName": "Яременко",
+   "age": 45
+  }
+ ],
+ "oldBirths": {
+  "user1": "1992-04-12",
+  "user2": "1988-09-03"
+ },
+ "reviews": [
+  {
+   "game": "The Witcher 3: Wild Hunt",
+   "user": "user1",
+   "rating": 5,
+   "daysAgo": 210,
+   "comment": "Найкращий сюжет, який я бачила в іграх. Навіть побічні квести тут — окремі невеликі історії, а не «принеси десять шкур»."
+  },
+  {
+   "game": "The Witcher 3: Wild Hunt",
+   "user": "user2",
+   "rating": 5,
+   "daysAgo": 198,
+   "comment": "Дуже затягує. Побічні квести — окремі історії, а Криваві пани я пройшов двічі."
+  },
+  {
+   "game": "The Witcher 3: Wild Hunt",
+   "user": "andriy",
+   "rating": 5,
+   "daysAgo": 150,
+   "comment": "Пройшов тричі й щоразу знаходжу щось нове. Світ живий: люди мають свої справи, а вибори справді мають наслідки."
+  },
+  {
+   "game": "The Witcher 3: Wild Hunt",
+   "user": "bohdan",
+   "rating": 4,
+   "daysAgo": 95,
+   "comment": "Світ і персонажі — найвищий клас. Мінус один бал за незграбне керування Геральтом у тісних місцях і плутане меню."
+  },
+  {
+   "game": "Cyberpunk 2077",
+   "user": "ihor",
+   "rating": 4,
+   "daysAgo": 120,
+   "comment": "Після патчів це зовсім інша гра. Нічне місто виглядає чудово, а історія з Джонні чіпляє до самого фіналу."
+  },
+  {
+   "game": "Cyberpunk 2077",
+   "user": "taras",
+   "rating": 3,
+   "daysAgo": 140,
+   "comment": "Атмосфера крута, але світ місцями порожній, а штучний інтелект супротивників досі дивний. Очікував більшого."
+  },
+  {
+   "game": "Cyberpunk 2077",
+   "user": "roman",
+   "rating": 4,
+   "daysAgo": 88,
+   "comment": "Взяв на знижці й не пошкодував. Основний сюжет сильний, дарма що багато дрібних активностей схожі між собою."
+  },
+  {
+   "game": "Hades",
+   "user": "user1",
+   "rating": 5,
+   "daysAgo": 205,
+   "comment": "Кожна спроба інша, не можу зупинитись. Діалоги з персонажами — окреме задоволення."
+  },
+  {
+   "game": "Hades",
+   "user": "kateryna",
+   "rating": 5,
+   "daysAgo": 175,
+   "comment": "Рідкісний випадок, коли програш у грі мотивує, а не дратує. Графіка й музика на висоті."
+  },
+  {
+   "game": "Hades",
+   "user": "sofiia",
+   "rating": 5,
+   "daysAgo": 160,
+   "comment": "Спочатку здавалося складним, потім пішло як по маслу. Кілька годин пролетіли непомітно."
+  },
+  {
+   "game": "Hades",
+   "user": "polina",
+   "rating": 4,
+   "daysAgo": 70,
+   "comment": "Дуже весела гра. Боси цікаві, але інколи спрацьовує випадковість, і це трохи бісить."
+  },
+  {
+   "game": "Stardew Valley",
+   "user": "user2",
+   "rating": 5,
+   "daysAgo": 190,
+   "comment": "Затишна гра на вечір. Заходжу «на пів години» — і вже глибока ніч."
+  },
+  {
+   "game": "Stardew Valley",
+   "user": "liliia",
+   "rating": 5,
+   "daysAgo": 185,
+   "comment": "Ферма, риболовля, знайомство з мешканцями містечка — це справжній відпочинок після роботи."
+  },
+  {
+   "game": "Stardew Valley",
+   "user": "yulia",
+   "rating": 5,
+   "daysAgo": 130,
+   "comment": "Найтепліша гра, у яку я грала. Кооператив з сестрою — окреме щастя."
+  },
+  {
+   "game": "Stardew Valley",
+   "user": "mykyta",
+   "rating": 5,
+   "daysAgo": 40,
+   "comment": "Мені подобається садити городину і ловити рибу. Тато допоміг зі шахтою."
+  },
+  {
+   "game": "Portal 2",
+   "user": "dmytro",
+   "rating": 5,
+   "daysAgo": 300,
+   "comment": "Головоломки розумні, гумор ще кращий. Кооперативна кампанія — одна з найкращих у жанрі."
+  },
+  {
+   "game": "Portal 2",
+   "user": "anna",
+   "rating": 5,
+   "daysAgo": 110,
+   "comment": "Пройшла за вихідні разом із другом у кооперативі. Персонажі-роботи просто неперевершені."
+  },
+  {
+   "game": "Portal 2",
+   "user": "artem",
+   "rating": 5,
+   "daysAgo": 82,
+   "comment": "Дуже кмітлива гра. Спершу не розумів, як працюють портали на стелі, але потім затягнуло."
+  },
+  {
+   "game": "Celeste",
+   "user": "user1",
+   "rating": 4,
+   "daysAgo": 180,
+   "comment": "Складно, але варто. Історія про подолання тривоги вразила більше, ніж саме проходження."
+  },
+  {
+   "game": "Celeste",
+   "user": "ostap",
+   "rating": 5,
+   "daysAgo": 144,
+   "comment": "Керування ідеальне, а режим допомоги дозволяє пройти гру навіть тим, кому не вистачає спритності."
+  },
+  {
+   "game": "Celeste",
+   "user": "veronika",
+   "rating": 4,
+   "daysAgo": 66,
+   "comment": "Красива піксельна гра з чудовою музикою. Кілька рівнів довелося проходити по сорок разів, але це приємний біль."
+  },
+  {
+   "game": "Forza Horizon 5",
+   "user": "serhii",
+   "rating": 4,
+   "daysAgo": 200,
+   "comment": "Мексика виглядає неймовірно. Для аркадних перегонів автопарк просто величезний."
+  },
+  {
+   "game": "Forza Horizon 5",
+   "user": "volodymyr",
+   "rating": 5,
+   "daysAgo": 170,
+   "comment": "Найкращі відкриті перегони, у які я грав. Особливо подобається погода й зміна пір року."
+  },
+  {
+   "game": "Forza Horizon 5",
+   "user": "max",
+   "rating": 4,
+   "daysAgo": 55,
+   "comment": "Крутий вибір для друзів: заїзди онлайн і фестивальні події не набридають."
+  },
+  {
+   "game": "Hollow Knight",
+   "user": "ostap",
+   "rating": 5,
+   "daysAgo": 215,
+   "comment": "Світ, у якому хочеться губитись. Боси складні, але чесні, а музика Крістофера Ларкіна просто чарівна."
+  },
+  {
+   "game": "Hollow Knight",
+   "user": "oksana",
+   "rating": 5,
+   "daysAgo": 190,
+   "comment": "Мало ігор, де так відчувається самотність і краса одночасно. Рекомендую всім, хто любить дослідження."
+  },
+  {
+   "game": "Hollow Knight",
+   "user": "ihor",
+   "rating": 4,
+   "daysAgo": 100,
+   "comment": "Чудова гра, але без підказок легко заблукати. Довелося відкривати карту в браузері."
+  },
+  {
+   "game": "Hollow Knight",
+   "user": "taras",
+   "rating": 5,
+   "daysAgo": 35,
+   "comment": "За ці гроші — просто скарб. Сотня годин задоволення."
+  },
+  {
+   "game": "Sid Meier’s Civilization VI",
+   "user": "volodymyr",
+   "rating": 4,
+   "daysAgo": 260,
+   "comment": "Знову «ще один хід», знову четверта ранку. Іноді ШІ поводиться дивно, але затягує все одно."
+  },
+  {
+   "game": "Sid Meier’s Civilization VI",
+   "user": "bohdan",
+   "rating": 4,
+   "daysAgo": 125,
+   "comment": "Класична стратегія, у якій районам місць не вистачає, і це змушує планувати. Релігійна перемога трохи нудна."
+  },
+  {
+   "game": "Resident Evil 4",
+   "user": "roman",
+   "rating": 5,
+   "daysAgo": 205,
+   "comment": "Ремейк вдався: зберіг дух оригіналу й додав гідну картинку та динаміку бою."
+  },
+  {
+   "game": "Resident Evil 4",
+   "user": "andriy",
+   "rating": 5,
+   "daysAgo": 168,
+   "comment": "Бої з Крауссером — чистий адреналін. Давно не отримував такого задоволення від екшену."
+  },
+  {
+   "game": "Resident Evil 4",
+   "user": "dmytro",
+   "rating": 4,
+   "daysAgo": 80,
+   "comment": "Гарна адаптація, шкода, що торговець іноді повторюється. Загалом дуже добре."
+  },
+  {
+   "game": "The Legend of Zelda: Breath of the Wild",
+   "user": "sofiia",
+   "rating": 5,
+   "daysAgo": 250,
+   "comment": "Відчуття свободи неймовірне: бачиш гору — можеш на неї залізти. Мій «ігровий рік» для Nintendo."
+  },
+  {
+   "game": "The Legend of Zelda: Breath of the Wild",
+   "user": "maria",
+   "rating": 5,
+   "daysAgo": 188,
+   "comment": "Гра, що змінила моє уявлення про відкритий світ. Кожен куточок хоч чимось цікавий."
+  },
+  {
+   "game": "The Legend of Zelda: Breath of the Wild",
+   "user": "artem",
+   "rating": 5,
+   "daysAgo": 60,
+   "comment": "Тут навіть готувати їжу цікаво! Не можу відірватись від пошуку святинь."
+  },
+  {
+   "game": "Counter-Strike 2",
+   "user": "max",
+   "rating": 4,
+   "daysAgo": 112,
+   "comment": "Нова графіка й звук димів — дуже якісно. Іноді трапляється розсинхрон, але грати комфортно."
+  },
+  {
+   "game": "Counter-Strike 2",
+   "user": "taras",
+   "rating": 3,
+   "daysAgo": 99,
+   "comment": "Матчмейкінг часом зводить із читерами. Гра сама по собі відмінна, але обслуговування хромає."
+  },
+  {
+   "game": "Counter-Strike 2",
+   "user": "ostap",
+   "rating": 4,
+   "daysAgo": 54,
+   "comment": "Класика, якій можна присвятити тисячі годин. У команді з друзями — найкраще."
+  },
+  {
+   "game": "Elden Ring",
+   "user": "bohdan",
+   "rating": 5,
+   "daysAgo": 240,
+   "comment": "Свобода, масштаб і чудові боси. Не вимагає мати за плечима сотню годин у Souls-іграх."
+  },
+  {
+   "game": "Elden Ring",
+   "user": "dmytro",
+   "rating": 5,
+   "daysAgo": 235,
+   "comment": "Світ — шедевр. Кожна печера щось приховує, а Меліна — мій улюблений супутник."
+  },
+  {
+   "game": "Elden Ring",
+   "user": "ihor",
+   "rating": 4,
+   "daysAgo": 150,
+   "comment": "Дуже круто, але без допомоги з вікі я би загубився на половині ігрових квестів."
+  },
+  {
+   "game": "Elden Ring",
+   "user": "anna",
+   "rating": 5,
+   "daysAgo": 45,
+   "comment": "Це моя перша гра такого типу, і я в захваті. Помираю часто, але щоразу чогось вчуся."
+  },
+  {
+   "game": "Baldur’s Gate 3",
+   "user": "maria",
+   "rating": 5,
+   "daysAgo": 270,
+   "comment": "Найкраща RPG за останні роки. Відіграти можна навіть дружбу з ведмедем."
+  },
+  {
+   "game": "Baldur’s Gate 3",
+   "user": "iryna",
+   "rating": 5,
+   "daysAgo": 262,
+   "comment": "Компаньйони живі, а діалоги написано блискуче. Я вже тричі проходила різними класами."
+  },
+  {
+   "game": "Baldur’s Gate 3",
+   "user": "nataliia",
+   "rating": 5,
+   "daysAgo": 210,
+   "comment": "Гра, яка поважає гравця і його вибір. Кооператив із чоловіком — суперовий досвід."
+  },
+  {
+   "game": "Baldur’s Gate 3",
+   "user": "yulia",
+   "rating": 5,
+   "daysAgo": 128,
+   "comment": "Затягнуло з перших хвилин. Бій покроковий, але динамічний, а вибір завжди має ціну."
+  },
+  {
+   "game": "Red Dead Redemption 2",
+   "user": "volodymyr",
+   "rating": 5,
+   "daysAgo": 330,
+   "comment": "Кіно, у яке можна грати. Темп повільний, але історія Артура варта кожної хвилини."
+  },
+  {
+   "game": "Red Dead Redemption 2",
+   "user": "serhii",
+   "rating": 5,
+   "daysAgo": 320,
+   "comment": "Деталізація вражає: від поведінки коня до погоди. Мабуть, найкраща гра покоління."
+  },
+  {
+   "game": "Red Dead Redemption 2",
+   "user": "andriy",
+   "rating": 4,
+   "daysAgo": 140,
+   "comment": "Атмосфера неймовірна, проте керування на початку нагадує танкетку. Потім звикаєш."
+  },
+  {
+   "game": "Grand Theft Auto V",
+   "user": "roman",
+   "rating": 4,
+   "daysAgo": 290,
+   "comment": "Три герої — три історії, а онлайн живе на повну. Сюжет трохи коротший, ніж хотілося."
+  },
+  {
+   "game": "Grand Theft Auto V",
+   "user": "taras",
+   "rating": 4,
+   "daysAgo": 200,
+   "comment": "Класика, до якої повертаєшся роками. Нагороди й машини — на будь-який смак."
+  },
+  {
+   "game": "Sekiro: Shadows Die Twice",
+   "user": "dmytro",
+   "rating": 4,
+   "daysAgo": 180,
+   "comment": "Потрібно змінити звичку: тут не ухиляються, а відбивають. Коли схопив систему — шалене задоволення."
+  },
+  {
+   "game": "Sekiro: Shadows Die Twice",
+   "user": "ostap",
+   "rating": 5,
+   "daysAgo": 121,
+   "comment": "Найвідточеніші бої з усього, що робила FromSoftware. Кілька разів хотів кинути, але не шкодую."
+  },
+  {
+   "game": "Hogwarts Legacy",
+   "user": "iryna",
+   "rating": 4,
+   "daysAgo": 160,
+   "comment": "Хогвартс виглядає таким, яким я його уявляла у дитинстві. Бої цікаві, хоч і трохи однотипні."
+  },
+  {
+   "game": "Hogwarts Legacy",
+   "user": "kateryna",
+   "rating": 5,
+   "daysAgo": 150,
+   "comment": "Мрія дитинства здійснилась. Ходити по замку, відвідувати заняття, літати на мітлі — просто чудово."
+  },
+  {
+   "game": "Hogwarts Legacy",
+   "user": "sofiia",
+   "rating": 4,
+   "daysAgo": 90,
+   "comment": "Сюжет не надто оригінальний, зате світ чудово прописаний. Для фанатів — must have."
+  },
+  {
+   "game": "Hogwarts Legacy",
+   "user": "anna",
+   "rating": 5,
+   "daysAgo": 42,
+   "comment": "Одна з небагатьох ігор, у яких я вирішила виконати абсолютно всі завдання."
+  },
+  {
+   "game": "Terraria",
+   "user": "artem",
+   "rating": 5,
+   "daysAgo": 275,
+   "comment": "Тут можна робити що завгодно: копати, будувати, воювати з босами. Кооператив із друзями — мегавеселий."
+  },
+  {
+   "game": "Terraria",
+   "user": "polina",
+   "rating": 5,
+   "daysAgo": 105,
+   "comment": "Гра, у яку можна грати нескінченно. Я відкриваю щось нове кожен тиждень."
+  },
+  {
+   "game": "Terraria",
+   "user": "ostap",
+   "rating": 5,
+   "daysAgo": 76,
+   "comment": "Контенту стільки, що важко повірити в таку ціну. Обов’язково з друзями."
+  },
+  {
+   "game": "Minecraft",
+   "user": "mykyta",
+   "rating": 5,
+   "daysAgo": 30,
+   "comment": "Я збудував замок і великий мій дім. Мама каже, що я граю забагато, але це так цікаво!"
+  },
+  {
+   "game": "Minecraft",
+   "user": "daryna",
+   "rating": 5,
+   "daysAgo": 90,
+   "comment": "Грали з класом на сервері — було круто. Лазять і будують усі навіть без підказок."
+  },
+  {
+   "game": "Minecraft",
+   "user": "nataliia",
+   "rating": 5,
+   "daysAgo": 220,
+   "comment": "Гра, що розвиває уяву. Син проводить за нею години, а я отримала справжній спокій."
+  },
+  {
+   "game": "Among Us",
+   "user": "polina",
+   "rating": 3,
+   "daysAgo": 300,
+   "comment": "Весело з друзями, але зі «стороннім» складом швидко набридає. Хороша на вечірку."
+  },
+  {
+   "game": "Among Us",
+   "user": "daryna",
+   "rating": 4,
+   "daysAgo": 95,
+   "comment": "Весело шукати самозванця. Іноді підозрюють мене, хоч я нічого не робила."
+  },
+  {
+   "game": "Rocket League",
+   "user": "max",
+   "rating": 5,
+   "daysAgo": 270,
+   "comment": "Футбол на машинах — геніальна ідея. Кожен матч на межі, а ранги мотивують вдосконалюватись."
+  },
+  {
+   "game": "Rocket League",
+   "user": "taras",
+   "rating": 4,
+   "daysAgo": 66,
+   "comment": "Просто, динамічно, жодної води. Лише донат-косметика трохи роздратовує."
+  },
+  {
+   "game": "Fortnite",
+   "user": "artem",
+   "rating": 3,
+   "daysAgo": 130,
+   "comment": "Весело грати з друзями, але магазин із косметикою — чистий маркетинг. Режим «без будівництва» — рятує."
+  },
+  {
+   "game": "Fortnite",
+   "user": "polina",
+   "rating": 2,
+   "daysAgo": 79,
+   "comment": "Не моя гра: забагато рекламних подій і донату, а ігровий процес швидко повторюється."
+  },
+  {
+   "game": "Apex Legends",
+   "user": "max",
+   "rating": 4,
+   "daysAgo": 160,
+   "comment": "Найкраща, на мою думку, королівська битва. Рух героїв — просто мрія."
+  },
+  {
+   "game": "Apex Legends",
+   "user": "taras",
+   "rating": 3,
+   "daysAgo": 140,
+   "comment": "Рухова система класна, але читерів і невдалих матчів надто багато."
+  },
+  {
+   "game": "Half-Life 2",
+   "user": "serhii",
+   "rating": 5,
+   "daysAgo": 355,
+   "comment": "Класика, яку не можна пропустити. Фізика, сюжет і атмосфера досі актуальні."
+  },
+  {
+   "game": "Half-Life 2",
+   "user": "volodymyr",
+   "rating": 5,
+   "daysAgo": 310,
+   "comment": "Грав у ній у 2004-му й повернувся тепер. Усе так само чудово, лише хочеться ще одну частину."
+  },
+  {
+   "game": "Half-Life 2",
+   "user": "ihor",
+   "rating": 5,
+   "daysAgo": 128,
+   "comment": "Спершу здавалась старою, але тільки спершу. Дизайн рівнів — еталон."
+  },
+  {
+   "game": "Portal",
+   "user": "dmytro",
+   "rating": 5,
+   "daysAgo": 295,
+   "comment": "Коротка, майстерна й смішна. Один вечір, який запам’ятаєш назавжди."
+  },
+  {
+   "game": "Portal",
+   "user": "anna",
+   "rating": 5,
+   "daysAgo": 118,
+   "comment": "Торт — це брехня, але гра — чудова! Рекомендую всім."
+  },
+  {
+   "game": "Left 4 Dead 2",
+   "user": "roman",
+   "rating": 5,
+   "daysAgo": 230,
+   "comment": "Один з найкращих кооперативних шутерів. З друзями — суцільні веселощі й крики."
+  },
+  {
+   "game": "Left 4 Dead 2",
+   "user": "ostap",
+   "rating": 4,
+   "daysAgo": 87,
+   "comment": "Режим «Версус» — окремий вид задоволення. Старенька, але діє досі."
+  },
+  {
+   "game": "Cuphead",
+   "user": "ostap",
+   "rating": 4,
+   "daysAgo": 200,
+   "comment": "Малюнки в стилі мультфільмів 30-х — шедевр. Дуже складно, але чесно."
+  },
+  {
+   "game": "Cuphead",
+   "user": "veronika",
+   "rating": 5,
+   "daysAgo": 134,
+   "comment": "Бойові сцени вибудувані дуже вдало. Вибивала боса мало не годину, але святкувала як перемогу всього життя."
+  },
+  {
+   "game": "Disco Elysium",
+   "user": "oksana",
+   "rating": 5,
+   "daysAgo": 245,
+   "comment": "Гра більше схожа на інтерактивну книгу, ніж на RPG. Діалоги — найкраще, що я читала в іграх."
+  },
+  {
+   "game": "Disco Elysium",
+   "user": "bohdan",
+   "rating": 5,
+   "daysAgo": 180,
+   "comment": "Письмо вражає. Ніколи не думав, що вибір навичок може бути настільки цікавим."
+  },
+  {
+   "game": "Disco Elysium",
+   "user": "yulia",
+   "rating": 4,
+   "daysAgo": 77,
+   "comment": "Дуже оригінально, але багато тексту: потрібно мати час і бажання читати."
+  },
+  {
+   "game": "Stellaris",
+   "user": "volodymyr",
+   "rating": 4,
+   "daysAgo": 290,
+   "comment": "Космічна стратегія з неймовірним масштабом. Спочатку складно, потім не відірвешся."
+  },
+  {
+   "game": "Stellaris",
+   "user": "bohdan",
+   "rating": 3,
+   "daysAgo": 200,
+   "comment": "Хороша гра, але пізня стадія затягується, а DLC дорогі."
+  },
+  {
+   "game": "Cities: Skylines",
+   "user": "serhii",
+   "rating": 5,
+   "daysAgo": 270,
+   "comment": "Будувати місто так цікаво, що забуваєш про сон. Мод-спільнота робить гру безмежною."
+  },
+  {
+   "game": "Cities: Skylines",
+   "user": "nataliia",
+   "rating": 4,
+   "daysAgo": 190,
+   "comment": "Заспокоює й розвиває планування. Трафік іноді дратує, але це частина гри."
+  },
+  {
+   "game": "Cities: Skylines",
+   "user": "artem",
+   "rating": 4,
+   "daysAgo": 52,
+   "comment": "Збудував місто з метро. Трафік іноді дивує, але це цікаво."
+  },
+  {
+   "game": "Euro Truck Simulator 2",
+   "user": "volodymyr",
+   "rating": 5,
+   "daysAgo": 360,
+   "comment": "Віртуальні поїздки Європою — найкраща релаксація. Особливо ввечері, з музикою."
+  },
+  {
+   "game": "Euro Truck Simulator 2",
+   "user": "serhii",
+   "rating": 5,
+   "daysAgo": 340,
+   "comment": "Здавалося б, нудно: вантаж із точки А в точку Б. Але гра затягує, і це диво."
+  },
+  {
+   "game": "Euro Truck Simulator 2",
+   "user": "mykyta",
+   "rating": 4,
+   "daysAgo": 25,
+   "comment": "Дуже цікаво возити вантаж! Лише важко зупинитись на потрібному місці."
+  },
+  {
+   "game": "Overcooked! 2",
+   "user": "sofiia",
+   "rating": 5,
+   "daysAgo": 220,
+   "comment": "Найкращий тест для дружби. Ми сваримось, сміємось і знову беремось гратись."
+  },
+  {
+   "game": "Overcooked! 2",
+   "user": "kateryna",
+   "rating": 5,
+   "daysAgo": 178,
+   "comment": "Гра, де хаос — це весело. З подругами проходили до ночі."
+  },
+  {
+   "game": "Overcooked! 2",
+   "user": "anna",
+   "rating": 5,
+   "daysAgo": 63,
+   "comment": "Кричали на всю квартиру, але було чудово. Кооператив — must have."
+  },
+  {
+   "game": "It Takes Two",
+   "user": "maria",
+   "rating": 5,
+   "daysAgo": 280,
+   "comment": "Ми з чоловіком пройшли її за вихідні. Кожен рівень — абсолютно новий геймплей."
+  },
+  {
+   "game": "It Takes Two",
+   "user": "iryna",
+   "rating": 5,
+   "daysAgo": 225,
+   "comment": "Найкраща кооперативна гра, у яку я грала. Вигадка не закінчується до самого фіналу."
+  },
+  {
+   "game": "It Takes Two",
+   "user": "andriy",
+   "rating": 5,
+   "daysAgo": 192,
+   "comment": "Рідко коли гра змушує мене сміятись, дивуватись і хвилюватись одночасно. Браво, Hazelight!"
+  },
+  {
+   "game": "It Takes Two",
+   "user": "sofiia",
+   "rating": 5,
+   "daysAgo": 100,
+   "comment": "Грали з сестрою. Дуже гарна історія, а партнеру обов’язково потрібен друг."
+  },
+  {
+   "game": "Fall Guys",
+   "user": "veronika",
+   "rating": 4,
+   "daysAgo": 115,
+   "comment": "Простий і веселий розслабляючий режим. Хороша на вечірку, але швидко повторюється."
+  },
+  {
+   "game": "Fall Guys",
+   "user": "polina",
+   "rating": 4,
+   "daysAgo": 80,
+   "comment": "Мило й весело, але вигравати важко. Усе одно чудовий настрій."
+  },
+  {
+   "game": "Fall Guys",
+   "user": "mykyta",
+   "rating": 3,
+   "daysAgo": 20,
+   "comment": "Весело, але дуже складно виграти. Іноді мене штовхають."
+  },
+  {
+   "game": "Rust",
+   "user": "roman",
+   "rating": 3,
+   "daysAgo": 150,
+   "comment": "Стільки напруження, що забуваєш дихати. Але нові гравці довго страждають від рейдерів."
+  },
+  {
+   "game": "Rust",
+   "user": "ostap",
+   "rating": 2,
+   "daysAgo": 98,
+   "comment": "Годинами збираєш ресурси, а тоді все втрачаєш за п’ять хвилин. Не для мене."
+  },
+  {
+   "game": "Age of Empires II: Definitive Edition",
+   "user": "serhii",
+   "rating": 5,
+   "daysAgo": 300,
+   "comment": "Улюблена стратегія юності у чудовому виконанні. Кампанії нарешті виглядають гідно."
+  },
+  {
+   "game": "Age of Empires II: Definitive Edition",
+   "user": "volodymyr",
+   "rating": 5,
+   "daysAgo": 255,
+   "comment": "Незмінна класика: чудові кампанії й жвавий мультиплеєр. Рекомендую всім любителям RTS."
+  },
+  {
+   "game": "Age of Empires II: Definitive Edition",
+   "user": "ihor",
+   "rating": 5,
+   "daysAgo": 110,
+   "comment": "Баланс і різноманітність цивілізацій дивують досі. Ідеально для вечірніх партій із другом."
+  },
+  {
+   "game": "Mario Kart 8 Deluxe",
+   "user": "user2",
+   "rating": 5,
+   "daysAgo": 170,
+   "comment": "Чудово грати всією родиною. Навіть бабуся грає й сміється."
+  },
+  {
+   "game": "Mario Kart 8 Deluxe",
+   "user": "liliia",
+   "rating": 5,
+   "daysAgo": 160,
+   "comment": "Найкраще для вечірок: прості правила, багато емоцій. Синій панцир — це зло!"
+  },
+  {
+   "game": "Mario Kart 8 Deluxe",
+   "user": "mykyta",
+   "rating": 5,
+   "daysAgo": 15,
+   "comment": "Моя улюблена гра! Я вже вмію обганяти тата."
+  },
+  {
+   "game": "Mario Kart 8 Deluxe",
+   "user": "daryna",
+   "rating": 5,
+   "daysAgo": 85,
+   "comment": "Грали на дні народження — усі були в захваті. Траси різноманітні й красиві."
+  },
+  {
+   "game": "Animal Crossing: New Horizons",
+   "user": "liliia",
+   "rating": 5,
+   "daysAgo": 335,
+   "comment": "Мій острів — моя фортеця спокою. Щодня заходжу полити квіточки й поспілкуватись із сусідами."
+  },
+  {
+   "game": "Animal Crossing: New Horizons",
+   "user": "yulia",
+   "rating": 5,
+   "daysAgo": 290,
+   "comment": "Дуже затишна. Подобається міняти оздоблення будинку за сезонами."
+  },
+  {
+   "game": "Animal Crossing: New Horizons",
+   "user": "daryna",
+   "rating": 5,
+   "daysAgo": 120,
+   "comment": "Я люблю ловити жуків і рибу. А ще можна запросити подругу на острів."
+  },
+  {
+   "game": "Splatoon 3",
+   "user": "ostap",
+   "rating": 4,
+   "daysAgo": 130,
+   "comment": "Яскравий та оригінальний шутер без крові. Цікаві карти, а музика — вогонь."
+  },
+  {
+   "game": "Splatoon 3",
+   "user": "max",
+   "rating": 5,
+   "daysAgo": 91,
+   "comment": "Зовсім інший погляд на шутери. Турніри з друзями — просто вау."
+  },
+  {
+   "game": "Super Smash Bros. Ultimate",
+   "user": "max",
+   "rating": 5,
+   "daysAgo": 205,
+   "comment": "Усі персонажі разом в одній грі — мрія збулася. З друзями проходить ніч за ніччю."
+  },
+  {
+   "game": "Super Smash Bros. Ultimate",
+   "user": "ostap",
+   "rating": 5,
+   "daysAgo": 190,
+   "comment": "Неймовірний набір бійців і режимів. Майже неможливо набриднути."
+  },
+  {
+   "game": "Dark Souls III",
+   "user": "dmytro",
+   "rating": 5,
+   "daysAgo": 310,
+   "comment": "Боси, атмосфера, дизайн рівнів — все чудово. Для мене серія завершилася достойно."
+  },
+  {
+   "game": "Dark Souls III",
+   "user": "bohdan",
+   "rating": 5,
+   "daysAgo": 260,
+   "comment": "Найпотужніша частина серії: динамічна й красива. Тут навіть програш приносить задоволення."
+  },
+  {
+   "game": "Dark Souls III",
+   "user": "max",
+   "rating": 4,
+   "daysAgo": 70,
+   "comment": "Дуже складно, але чесно. Кілька разів хотів кинути, але щоразу повертався."
+  },
+  {
+   "game": "DOOM Eternal",
+   "user": "roman",
+   "rating": 5,
+   "daysAgo": 250,
+   "comment": "Найшвидший шутер, у який я грав. Музика Міка Гордона — окрема насолода."
+  },
+  {
+   "game": "DOOM Eternal",
+   "user": "taras",
+   "rating": 5,
+   "daysAgo": 215,
+   "comment": "Адреналін від першої хвилини. Бої схожі на танець, коли розумієш систему."
+  },
+  {
+   "game": "DOOM Eternal",
+   "user": "andriy",
+   "rating": 4,
+   "daysAgo": 120,
+   "comment": "Відмінна динаміка, лише платформні сегменти трохи затягнуті."
+  },
+  {
+   "game": "Ori and the Will of the Wisps",
+   "user": "kateryna",
+   "rating": 5,
+   "daysAgo": 255,
+   "comment": "Сльози на очах від саундтреку й історії. Гра — справжній витвір мистецтва."
+  },
+  {
+   "game": "Ori and the Will of the Wisps",
+   "user": "maria",
+   "rating": 5,
+   "daysAgo": 205,
+   "comment": "Зворушлива й неймовірно красива. Платформінг — чудовий, хоч місцями складний."
+  },
+  {
+   "game": "Ori and the Will of the Wisps",
+   "user": "sofiia",
+   "rating": 5,
+   "daysAgo": 140,
+   "comment": "Ніколи не думала, що платформер може бути настільки емоційним. Грайте обов’язково!"
+  },
+  {
+   "game": "Sea of Thieves",
+   "user": "ostap",
+   "rating": 4,
+   "daysAgo": 160,
+   "comment": "У команді з друзями — суцільна пригода. Самому швидко нудно, але разом — шалена історія."
+  },
+  {
+   "game": "Sea of Thieves",
+   "user": "dmytro",
+   "rating": 4,
+   "daysAgo": 112,
+   "comment": "Унікальний піратський досвід. Вода — просто диво, а грабунок кораблів — адреналін."
+  },
+  {
+   "game": "Kerbal Space Program",
+   "user": "bohdan",
+   "rating": 5,
+   "daysAgo": 285,
+   "comment": "Навчився більше з фізики, ніж у школі. Перший вдалий вихід на орбіту — незабутній момент."
+  },
+  {
+   "game": "Kerbal Space Program",
+   "user": "ihor",
+   "rating": 5,
+   "daysAgo": 180,
+   "comment": "Весело, складно й дуже дотепно. Кожна невдача — привід посміятись."
+  },
+  {
+   "game": "Kerbal Space Program",
+   "user": "volodymyr",
+   "rating": 4,
+   "daysAgo": 133,
+   "comment": "Входження в гру важке, але вона того варта. Пройти навчання обов’язково."
+  },
+  {
+   "game": "Super Mario Odyssey",
+   "user": "liliia",
+   "rating": 5,
+   "daysAgo": 240,
+   "comment": "Радісний, барвистий і дуже винахідливий платформер. Кожне королівство — маленьке диво."
+  },
+  {
+   "game": "Super Mario Odyssey",
+   "user": "mykyta",
+   "rating": 5,
+   "daysAgo": 18,
+   "comment": "Кашкет-Кеппі вміє перетворюватись на що завгодно! Я вже зібрав багато місяців."
+  },
+  {
+   "game": "Super Mario Odyssey",
+   "user": "daryna",
+   "rating": 5,
+   "daysAgo": 74,
+   "comment": "Одна з найкращих ігор Nintendo. Головне — просто отримувати задоволення."
+  },
+  {
+   "game": "Super Mario Bros. Wonder",
+   "user": "mykyta",
+   "rating": 5,
+   "daysAgo": 12,
+   "comment": "Квіти, які змінюють рівні — смішні! Хочу грати з другом."
+  },
+  {
+   "game": "Super Mario Bros. Wonder",
+   "user": "liliia",
+   "rating": 5,
+   "daysAgo": 150,
+   "comment": "Свіжий погляд на класику. Гра постійно дивує: ніколи не знаєш, що буде далі."
+  },
+  {
+   "game": "Kirby and the Forgotten Land",
+   "user": "mykyta",
+   "rating": 4,
+   "daysAgo": 28,
+   "comment": "Я люблю, коли Кірбі їсть машини. Дуже смішно!"
+  },
+  {
+   "game": "Kirby and the Forgotten Land",
+   "user": "maria",
+   "rating": 4,
+   "daysAgo": 172,
+   "comment": "Зручна, мила гра, ідеальна для дорослих, які хочуть розслабитись."
+  },
+  {
+   "game": "Pokémon Legends: Arceus",
+   "user": "daryna",
+   "rating": 4,
+   "daysAgo": 140,
+   "comment": "Ловити покемонів у відкритому світі — класно. Графіка проста, але атмосфера чарівна."
+  },
+  {
+   "game": "Pokémon Legends: Arceus",
+   "user": "polina",
+   "rating": 4,
+   "daysAgo": 108,
+   "comment": "Новий формат серії мені сподобався. Було б чудово, якби виправили падіння кадрів."
+  },
+  {
+   "game": "Pokémon Legends: Arceus",
+   "user": "sofiia",
+   "rating": 3,
+   "daysAgo": 90,
+   "comment": "Ідея чудова, але графіка слабка, а завдання повторюються."
+  },
+  {
+   "game": "Metroid Dread",
+   "user": "ostap",
+   "rating": 5,
+   "daysAgo": 215,
+   "comment": "Темп, дизайн, ігрова механіка — все на місці. Найкращий 2D-метроїдванія останніх років."
+  },
+  {
+   "game": "Metroid Dread",
+   "user": "roman",
+   "rating": 4,
+   "daysAgo": 130,
+   "comment": "Динамічно, напружено, вражаюче. Деякі EMMI-втечі змушують серце калатати."
+  },
+  {
+   "game": "Control",
+   "user": "dmytro",
+   "rating": 4,
+   "daysAgo": 240,
+   "comment": "Цікавий світ і чудові ефекти. Іноді геймплей надто повторюється, але загалом чудово."
+  },
+  {
+   "game": "Control",
+   "user": "iryna",
+   "rating": 5,
+   "daysAgo": 190,
+   "comment": "Атмосферний трилер з надприродними елементами. Дизайн будівлі Бюро — вражаючий."
+  },
+  {
+   "game": "Control",
+   "user": "andriy",
+   "rating": 4,
+   "daysAgo": 147,
+   "comment": "Телекінез — суперова механіка. Розповідь складна, але того варта."
+  },
+  {
+   "game": "Alan Wake 2",
+   "user": "bohdan",
+   "rating": 5,
+   "daysAgo": 75,
+   "comment": "Кращий хорор останніх років. Ріст напруження, розповідь, музика — усе відмінно."
+  },
+  {
+   "game": "Alan Wake 2",
+   "user": "dmytro",
+   "rating": 5,
+   "daysAgo": 60,
+   "comment": "Дивовижна комбінація трилера й детективу. Грав удень із ввімкненим світлом."
+  },
+  {
+   "game": "God of War",
+   "user": "roman",
+   "rating": 5,
+   "daysAgo": 300,
+   "comment": "Історія батька й сина зачепила мене більше, ніж очікував. Бої — дуже соковиті."
+  },
+  {
+   "game": "God of War",
+   "user": "andriy",
+   "rating": 5,
+   "daysAgo": 265,
+   "comment": "Шедевр. Камера без розривів робить усе схожим на кіно."
+  },
+  {
+   "game": "God of War",
+   "user": "ihor",
+   "rating": 5,
+   "daysAgo": 190,
+   "comment": "Тут усе: і дрібниці, і розмах. Сокира Левіафан — кращий інструмент гри."
+  },
+  {
+   "game": "God of War",
+   "user": "nataliia",
+   "rating": 4,
+   "daysAgo": 120,
+   "comment": "Чудова історія, але бої можуть бути складними. У цілому — дуже сильна гра."
+  },
+  {
+   "game": "Rayman Legends",
+   "user": "maria",
+   "rating": 5,
+   "daysAgo": 295,
+   "comment": "Яскравий платформер із фантастичною музикою. Рівні з ритмом — незабутні."
+  },
+  {
+   "game": "Rayman Legends",
+   "user": "kateryna",
+   "rating": 5,
+   "daysAgo": 225,
+   "comment": "Грали разом із братом. Дуже весело, красиво й не нудно."
+  },
+  {
+   "game": "The Elder Scrolls V: Skyrim Special Edition",
+   "user": "volodymyr",
+   "rating": 5,
+   "daysAgo": 365,
+   "comment": "Пройшов усе по кілька разів, а модів — ціла купа. Це гра на все життя."
+  },
+  {
+   "game": "The Elder Scrolls V: Skyrim Special Edition",
+   "user": "roman",
+   "rating": 5,
+   "daysAgo": 310,
+   "comment": "Світ, у якому хочеться жити. Гільдії й основний сюжет — чудові, а дракони — просто вогонь."
+  },
+  {
+   "game": "The Elder Scrolls V: Skyrim Special Edition",
+   "user": "serhii",
+   "rating": 5,
+   "daysAgo": 280,
+   "comment": "Класика RPG. Не сумніваюсь, що ще не раз повернусь."
+  },
+  {
+   "game": "The Elder Scrolls V: Skyrim Special Edition",
+   "user": "bohdan",
+   "rating": 4,
+   "daysAgo": 145,
+   "comment": "Бойова система проста, але світ завжди дивує. З модами — ще краще."
+  },
+  {
+   "game": "Horizon Zero Dawn",
+   "user": "iryna",
+   "rating": 5,
+   "daysAgo": 195,
+   "comment": "Елой — одна з моїх улюблених героїнь. Полювання на роботів-динозаврів дуже захоплює."
+  },
+  {
+   "game": "Horizon Zero Dawn",
+   "user": "ostap",
+   "rating": 4,
+   "daysAgo": 125,
+   "comment": "Красиво й цікаво. Сюжет тримає, хоч місцями діалоги довгі."
+  },
+  {
+   "game": "Horizon Zero Dawn",
+   "user": "anna",
+   "rating": 5,
+   "daysAgo": 38,
+   "comment": "Мені дуже сподобався світ і сюжет. Бої з гігантськими машинами — чудові."
+  },
+  {
+   "game": "Minecraft Dungeons",
+   "user": "mykyta",
+   "rating": 4,
+   "daysAgo": 22,
+   "comment": "Ми з другом ходили в підземелля разом. Було весело, але боси іноді складні."
+  },
+  {
+   "game": "Minecraft Dungeons",
+   "user": "daryna",
+   "rating": 4,
+   "daysAgo": 85,
+   "comment": "Гарний екшен для компанії, але до Minecraft далеко. На пару вечорів вистачить."
+  },
+  {
+   "game": "Sonic Frontiers",
+   "user": "artem",
+   "rating": 3,
+   "daysAgo": 105,
+   "comment": "Швидкість — на висоті, але відкритий світ порожній, а камера часом збиває з пантелику."
+  },
+  {
+   "game": "Sonic Frontiers",
+   "user": "ostap",
+   "rating": 3,
+   "daysAgo": 66,
+   "comment": "Цікава спроба змінити формулу, але вийшло нерівно. Музика вдалася на славу."
+  },
+  {
+   "game": "Gran Turismo 7",
+   "user": "serhii",
+   "rating": 4,
+   "daysAgo": 180,
+   "comment": "Для любителів автомобілів — справжнє свято. Фізика й звук на дуже високому рівні."
+  },
+  {
+   "game": "Gran Turismo 7",
+   "user": "volodymyr",
+   "rating": 4,
+   "daysAgo": 155,
+   "comment": "Кар’єра приємна й повільна, але постійні вимоги до підключення та мікротранзакції трохи псують враження."
+  }
+ ],
+ "wishes": [
+  {
+   "user": "user1",
+   "game": "Hollow Knight",
+   "note": "Подивитись у відпустці",
+   "daysAgo": 60
+  },
+  {
+   "user": "user1",
+   "game": "Portal 2",
+   "note": null,
+   "daysAgo": 55
+  },
+  {
+   "user": "user2",
+   "game": "Elden Ring",
+   "note": null,
+   "daysAgo": 50
+  },
+  {
+   "user": "oksana",
+   "game": "Baldur’s Gate 3",
+   "note": "Почати, коли буде більше вільного часу",
+   "daysAgo": 40
+  },
+  {
+   "user": "oksana",
+   "game": "Control",
+   "note": null,
+   "daysAgo": 22
+  },
+  {
+   "user": "andriy",
+   "game": "Elden Ring",
+   "note": "Обіцяв собі пройти до кінця року",
+   "daysAgo": 30
+  },
+  {
+   "user": "andriy",
+   "game": "Alan Wake 2",
+   "note": null,
+   "daysAgo": 18
+  },
+  {
+   "user": "iryna",
+   "game": "Disco Elysium",
+   "note": "Порадила Оксана",
+   "daysAgo": 35
+  },
+  {
+   "user": "iryna",
+   "game": "Ori and the Will of the Wisps",
+   "note": null,
+   "daysAgo": 12
+  },
+  {
+   "user": "dmytro",
+   "game": "Baldur’s Gate 3",
+   "note": "Грати разом із Ігорем",
+   "daysAgo": 45
+  },
+  {
+   "user": "dmytro",
+   "game": "Hades",
+   "note": null,
+   "daysAgo": 20
+  },
+  {
+   "user": "maria",
+   "game": "Hades",
+   "note": "Чула, що дуже затягує",
+   "daysAgo": 25
+  },
+  {
+   "user": "maria",
+   "game": "Stardew Valley",
+   "note": "Для відпочинку після роботи",
+   "daysAgo": 15
+  },
+  {
+   "user": "taras",
+   "game": "Hollow Knight",
+   "note": null,
+   "daysAgo": 28
+  },
+  {
+   "user": "taras",
+   "game": "Cuphead",
+   "note": "Спробувати з другом у кооперативі",
+   "daysAgo": 10
+  },
+  {
+   "user": "sofiia",
+   "game": "Hollow Knight",
+   "note": null,
+   "daysAgo": 33
+  },
+  {
+   "user": "sofiia",
+   "game": "Animal Crossing: New Horizons",
+   "note": "Подарунок собі на день народження",
+   "daysAgo": 17
+  },
+  {
+   "user": "bohdan",
+   "game": "Alan Wake 2",
+   "note": null,
+   "daysAgo": 20
+  },
+  {
+   "user": "bohdan",
+   "game": "Red Dead Redemption 2",
+   "note": "Купити на розпродажі",
+   "daysAgo": 41
+  },
+  {
+   "user": "yulia",
+   "game": "It Takes Two",
+   "note": "Пройти разом із сестрою",
+   "daysAgo": 27
+  },
+  {
+   "user": "yulia",
+   "game": "Hades",
+   "note": null,
+   "daysAgo": 8
+  },
+  {
+   "user": "volodymyr",
+   "game": "Baldur’s Gate 3",
+   "note": "Дочекатись знижки",
+   "daysAgo": 36
+  },
+  {
+   "user": "volodymyr",
+   "game": "Age of Empires II: Definitive Edition",
+   "note": null,
+   "daysAgo": 44
+  },
+  {
+   "user": "kateryna",
+   "game": "Hogwarts Legacy",
+   "note": null,
+   "daysAgo": 19
+  },
+  {
+   "user": "kateryna",
+   "game": "Celeste",
+   "note": "Подивитись музику й історію",
+   "daysAgo": 14
+  },
+  {
+   "user": "ihor",
+   "game": "Disco Elysium",
+   "note": null,
+   "daysAgo": 26
+  },
+  {
+   "user": "ihor",
+   "game": "Sekiro: Shadows Die Twice",
+   "note": "Після Elden Ring",
+   "daysAgo": 11
+  },
+  {
+   "user": "nataliia",
+   "game": "It Takes Two",
+   "note": "Для вечора з чоловіком",
+   "daysAgo": 31
+  },
+  {
+   "user": "nataliia",
+   "game": "Animal Crossing: New Horizons",
+   "note": null,
+   "daysAgo": 21
+  },
+  {
+   "user": "max",
+   "game": "Dark Souls III",
+   "note": "Складні, але цікаві",
+   "daysAgo": 24
+  },
+  {
+   "user": "max",
+   "game": "Sekiro: Shadows Die Twice",
+   "note": null,
+   "daysAgo": 16
+  },
+  {
+   "user": "anna",
+   "game": "Hogwarts Legacy",
+   "note": "Мрія з дитинства",
+   "daysAgo": 29
+  },
+  {
+   "user": "anna",
+   "game": "Hades",
+   "note": null,
+   "daysAgo": 9
+  },
+  {
+   "user": "artem",
+   "game": "Super Smash Bros. Ultimate",
+   "note": "Попросити на день народження",
+   "daysAgo": 23
+  },
+  {
+   "user": "artem",
+   "game": "Hollow Knight",
+   "note": null,
+   "daysAgo": 13
+  },
+  {
+   "user": "polina",
+   "game": "Animal Crossing: New Horizons",
+   "note": null,
+   "daysAgo": 32
+  },
+  {
+   "user": "polina",
+   "game": "Stardew Valley",
+   "note": "Для вечора з подругою",
+   "daysAgo": 6
+  },
+  {
+   "user": "daryna",
+   "game": "Super Mario Odyssey",
+   "note": null,
+   "daysAgo": 38
+  },
+  {
+   "user": "daryna",
+   "game": "Kirby and the Forgotten Land",
+   "note": "Попросити в тата",
+   "daysAgo": 7
+  },
+  {
+   "user": "mykyta",
+   "game": "Super Mario Bros. Wonder",
+   "note": "Хочу грати з другом",
+   "daysAgo": 5
+  },
+  {
+   "user": "mykyta",
+   "game": "Minecraft",
+   "note": null,
+   "daysAgo": 4
+  },
+  {
+   "user": "ostap",
+   "game": "Hades",
+   "note": "Подивитись, чим усі захоплюються",
+   "daysAgo": 34
+  },
+  {
+   "user": "ostap",
+   "game": "Elden Ring",
+   "note": null,
+   "daysAgo": 15
+  },
+  {
+   "user": "liliia",
+   "game": "Stardew Valley",
+   "note": null,
+   "daysAgo": 26
+  },
+  {
+   "user": "liliia",
+   "game": "Kirby and the Forgotten Land",
+   "note": "Для синових вихідних",
+   "daysAgo": 19
+  },
+  {
+   "user": "roman",
+   "game": "Elden Ring",
+   "note": null,
+   "daysAgo": 47
+  },
+  {
+   "user": "roman",
+   "game": "Disco Elysium",
+   "note": "Давно в планах",
+   "daysAgo": 39
+  },
+  {
+   "user": "veronika",
+   "game": "Ori and the Will of the Wisps",
+   "note": "Кажуть, дуже красива",
+   "daysAgo": 22
+  },
+  {
+   "user": "veronika",
+   "game": "Hollow Knight",
+   "note": null,
+   "daysAgo": 10
+  },
+  {
+   "user": "serhii",
+   "game": "Cities: Skylines",
+   "note": "Другу частину не чекаю",
+   "daysAgo": 43
+  },
+  {
+   "user": "serhii",
+   "game": "Baldur’s Gate 3",
+   "note": null,
+   "daysAgo": 37
+  }
+ ]
+}
