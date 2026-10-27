@@ -56,7 +56,7 @@ export function mount(el) {
     history.replaceState(null, '', location.pathname + (qs.size ? `?${qs}` : ''))
     clearFieldErrors(form)
     try {
-      const r = await api.get(`/games?${qs}`)
+      const r = await api.get(`/catalog?${qs}`)
       total.textContent = r.total
       out.innerHTML = `<div class="grid">${
         r.items.map(card).join('') || '<p class="panel">Нічого не знайдено. Спробуйте пом’якшити фільтри.</p>'

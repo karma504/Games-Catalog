@@ -34,7 +34,6 @@ export function mount(el) {
   const out = el.querySelector('[data-results]')
   const sp = new URLSearchParams(location.search)
 
-  // відновлюємо вибір із адресного рядка
   form.querySelectorAll('input[type=checkbox]').forEach((c) => (c.checked = sp.getAll(c.name).includes(c.value)))
   for (const name of ['max_price', 'max_size', 'age', 'min_rating']) if (sp.has(name)) form.elements[name].value = sp.get(name)
 
@@ -47,7 +46,7 @@ export function mount(el) {
     qs.set('pick', '1')
     clearFieldErrors(form)
     try {
-      const r = await api.get(`/games?${qs}`)
+      const r = await api.get(`/catalog?${qs}`)
       out.innerHTML = `<h2>Що знайшлося</h2><div class="grid">${
         r.items.map(card).join('') ||
         '<p class="panel">За такими умовами нічого немає. Збільште бюджет або приберіть частину жанрів.</p>'

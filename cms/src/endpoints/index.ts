@@ -57,7 +57,7 @@ export const common: Endpoint = {
 }
 
 export const games: Endpoint = {
-  path: '/games',
+  path: '/catalog',
   method: 'get',
   handler: async (req) => {
     const sp = params(req)
