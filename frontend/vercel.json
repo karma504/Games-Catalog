@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://games-catalog-cms-backend-hw2qr3vj3-karma504.vercel.app/" },
+    { "source": "/api/:path*", "destination": "https://games-catalog-cms-backend.vercel.app/" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
