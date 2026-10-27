@@ -22,9 +22,13 @@ import { SiteSettings } from './globals/SiteSettings'
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 
-const origins = (process.env.FRONTEND_URLS || 'http://localhost:5173')
-  .split(',')
-  .map((s) => s.trim())
+const cmsUrl = process.env.CMS_URL || 'https://games-catalog-cms-backend.vercel.app'
+
+const origins = [
+  ...(process.env.FRONTEND_URLS || 'https://games-catalog-cms-frontend.vercel.app').split(','),
+  cmsUrl,
+]
+  .map((s) => s.trim().replace(/\/$/, ''))
   .filter(Boolean)
 
 export default buildConfig({
