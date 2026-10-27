@@ -103,8 +103,6 @@ export const blocks: Block[] = [
         options: [
           { label: 'Вхід', value: 'login' },
           { label: 'Реєстрація', value: 'register' },
-          { label: 'Забули пароль (запит листа)', value: 'forgot' },
-          { label: 'Новий пароль (за посиланням з листа)', value: 'reset' },
         ],
       },
     ],

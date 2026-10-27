@@ -14,20 +14,20 @@ export const Games: CollectionConfig = {
   },
   defaultSort: 'title',
   access: {
-    // Віковий фільтр живе тут, тож діє і в /api/games, і в стандартному REST Payload
+    
     read: async ({ req }) => ageWhere(req),
-    create: adminOnly, // додавати ігри може лише адмін (через адмінку Payload)
-    update: adminOnly, // редагувати й видаляти — лише адмін (change_games / delete_games)
+    create: adminOnly, 
+    update: adminOnly,
     delete: adminOnly,
   },
   hooks: {
     beforeValidate: [
       async ({ data, req, originalDoc }) => {
         if (!data || typeof data.title !== 'string') return data
-        data.title = data.title.split(/\s+/).filter(Boolean).join(' ') // зайві пробіли
+        data.title = data.title.split(/\s+/).filter(Boolean).join(' ') 
         const found = await (req.payload as any).find({
           collection: 'games',
-          where: { title: { like: data.title } }, // like у Postgres — без урахування регістру
+          where: { title: { like: data.title } },
           depth: 0,
           pagination: false,
           overrideAccess: true,
@@ -41,7 +41,6 @@ export const Games: CollectionConfig = {
       },
     ],
     beforeDelete: [
-      // Відгуки й обране не каскадяться автоматично: прибираємо вручну
       async ({ req, id }) => {
         for (const collection of ['reviews', 'wishlist']) {
           await (req.payload as any).delete({

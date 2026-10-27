@@ -14,8 +14,7 @@ import * as gameForm from './blocks/gameForm.js'
 import * as reviewList from './blocks/reviewList.js'
 import * as reviewDetail from './blocks/reviewDetail.js'
 
-// Щоб додати нову секцію: створіть blocks/<name>.js (render + необов'язковий mount)
-// і зареєструйте її тут під тим самим slug, що й блок у CMS (cms/src/blocks.ts).
+
 const registry = {
   hero, genreChips, gameGrid, catalog, pick, referenceList, referenceDetail,
   richText, wishlist, profile, authForm, gameDetail, gameForm, reviewList, reviewDetail,

@@ -2,7 +2,7 @@ import { api } from '../api.js'
 import { navigate } from '../router.js'
 import { confirmDialog, esc, flash, flashNext, fmtDate, nl2br, stars } from '../ui.js'
 
-// Окремий відгук (порт ReviewDetailView)
+
 export function render(b) {
   const r = b.review
   return `<p class="muted small"><a href="/catalog">Каталог</a> / <a href="/games/${b.game.id}">${esc(b.game.title)}</a> / Відгук</p>
@@ -13,7 +13,6 @@ export function render(b) {
     ${r.comment ? `<p>${nl2br(r.comment)}</p>` : '<p class="muted">Без коментаря.</p>'}
     <div class="hrow">
       <a class="btn ghost" href="/games/${b.game.id}">До гри</a>
-      ${b.canModerate ? '<button type="button" class="btn danger" data-del>Видалити (модератор)</button>' : ''}
     </div>
   </article>`
 }

@@ -309,7 +309,6 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.6)}
 
 .tile-actions .tile-wish{margin:0}
 
-/* ---- форма гри, відгуки (модерація), підказки ---- */
 .checks{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:.45rem .9rem;margin-top:.3rem}
 .game-form{max-width:760px}
 .review-row{margin-bottom:.9rem}

@@ -1,4 +1,3 @@
-// Тонкий клієнт до Payload. Cookie входу передаються автоматично (credentials: 'include').
 const BASE = import.meta.env.VITE_API_URL || ''
 
 function errorMessage(data) {
@@ -19,7 +18,7 @@ async function request(method, path, body) {
   try {
     data = await res.json()
   } catch {
-    /* порожня відповідь */
+ 
   }
   if (!res.ok) {
     const err = new Error(errorMessage(data))

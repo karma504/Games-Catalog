@@ -5,7 +5,7 @@ import { esc, renderHeader, showPendingFlash } from './ui.js'
 
 let token = 0
 
-// Життєвий цикл: URL → /api/page?path=… → JSON з блоками → renderBlocks → DOM
+
 export async function render({ loading = true, keepScroll = false } = {}) {
   const mine = ++token
   const main = document.getElementById('main')
@@ -35,5 +35,4 @@ export function navigate(to) {
   return render()
 }
 
-// Оновити поточну сторінку, не скидаючи прокрутку (після відгуку, нотатки тощо)
 export const refresh = () => render({ loading: false, keepScroll: true })

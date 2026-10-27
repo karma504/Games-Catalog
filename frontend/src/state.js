@@ -6,7 +6,7 @@ export const state = {
   footer: { text: '', links: [] },
   user: null,
   age: { limit: null, isGuest: true },
-  wishes: {}, // gameId -> wishlist record id
+  wishes: {},
 }
 
 export async function loadCommon() {

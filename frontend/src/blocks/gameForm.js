@@ -3,7 +3,6 @@ import { state } from '../state.js'
 import { navigate } from '../router.js'
 import { clearFieldErrors, esc, flashNext, showFieldErrors } from '../ui.js'
 
-// Форма додавання (/games/add) та редагування (/games/:id/edit) гри. Порт GameCreateView / GameUpdateView.
 const checks = (name, items, chosen) =>
   `<div class="checks">${items
     .map(
@@ -108,7 +107,7 @@ export function mount(el, b) {
         navigate(`/games/${r.doc.id}`)
       }
     } catch (err) {
-      // Payload повертає помилки полів у data.errors[0].data.errors: [{ path, message }]
+
       const inner = err.data?.errors?.[0]?.data?.errors
       const known = ['title', 'fileSizeGb', 'price', 'officialUrl', 'imageUrl', 'releaseDate', 'description']
       const mapped = {}

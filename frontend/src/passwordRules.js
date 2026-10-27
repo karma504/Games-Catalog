@@ -1,5 +1,3 @@
-// Дзеркало серверної перевірки пароля (cms/src/lib/validators.ts::passwordError) — для швидкого відгуку у формі.
-// Остаточне рішення завжди за сервером (там ще є список поширених паролів).
 export function passwordError(password) {
   if (password.length < 8) return 'Пароль занадто короткий: потрібно щонайменше 8 символів.'
   if (/^\p{Nd}+$/u.test(password)) return 'Пароль не може складатися лише з цифр.'

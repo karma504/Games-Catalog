@@ -2,7 +2,6 @@ import { api } from '../api.js'
 import { refresh } from '../router.js'
 import { confirmDialog, esc, flash, fmtDate, nl2br, pagination, stars } from '../ui.js'
 
-// Усі відгуки для модератора (порт ReviewListView). Сторінки по 20 штук.
 const PER = 20
 
 export function render(b) {

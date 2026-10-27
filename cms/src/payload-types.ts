@@ -324,7 +324,7 @@ export interface Page {
         blockType: 'profile';
       }
     | {
-        mode: 'login' | 'register' | 'forgot' | 'reset';
+        mode: 'login' | 'register';
         id?: string | null;
         blockName?: string | null;
         blockType: 'authForm';

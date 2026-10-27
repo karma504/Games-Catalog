@@ -25,7 +25,6 @@ export function render(b) {
       <div class="price">${esc(g.priceLabel)}</div>
       ${wishButton(g.id, { cls: 'btn wide', guestLabel: 'Увійдіть, щоб додати в обране' })}
       ${g.officialUrl ? `<a class="btn ghost wide" href="${esc(g.officialUrl)}" target="_blank" rel="noopener noreferrer">Офіційний сайт ↗</a>` : '<span class="btn ghost wide disabled" aria-disabled="true">Офіційний сайт не вказано</span>'}
-      ${b.canManage ? `<a class="btn ghost wide" href="/games/${g.id}/edit">Редагувати гру</a><button type="button" class="btn danger wide" data-game-delete>Видалити гру</button>` : ''}
     </aside>
   </section>
   <section id="reviews" data-reviews></section>`
@@ -33,24 +32,8 @@ export function render(b) {
 
 export function mount(el, b) {
   reviews(el.querySelector('[data-reviews]'), b, false)
-  el.querySelector('[data-game-delete]')?.addEventListener('click', async () => {
-    const ok = await confirmDialog({
-      title: 'Видалити гру?',
-      text: `Гру «${b.game.title}» разом з її відгуками та записами в обраному буде видалено безповоротно.`,
-      yes: 'Так, видалити',
-    })
-    if (!ok) return
-    try {
-      await api.del(`/games/${b.game.id}`)
-      flashNext(`Гру «${b.game.title}» видалено.`)
-      navigate('/catalog')
-    } catch (err) {
-      flash(err.message, 'error')
-    }
-  })
 }
 
-/* ---------------- відгуки ---------------- */
 function reviewForm(r) {
   return `<form class="panel review-form" data-review-form novalidate>
     <h3>${r ? 'Редагувати відгук' : 'Залишити відгук'}</h3>
@@ -75,7 +58,6 @@ function reviewItem(r, b) {
         <b>${esc(r.author)}</b>${own ? '<span class="tag">Ваш відгук</span>' : ''}
         ${stars(r.rating)}<a class="muted small" href="/reviews/${r.id}">${fmtDate(r.date)}</a>
         ${own ? '<button type="button" class="linkbtn" data-edit>Редагувати</button><button type="button" class="linkbtn danger" data-del="own">Видалити</button>' : ''}
-        ${!own && b.canModerate ? '<button type="button" class="linkbtn danger" data-del="mod">Видалити (модератор)</button>' : ''}
       </div>
       ${r.comment ? `<p>${nl2br(r.comment)}</p>` : ''}
     </div></article>`

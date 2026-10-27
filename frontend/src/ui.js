@@ -10,7 +10,7 @@ export const fmtDate = (iso) =>
 export const stars = (n) => `<span class="star">${'★'.repeat(n)}${'☆'.repeat(5 - n)}</span>`
 export const safeNext = (v) => (typeof v === 'string' && v.startsWith('/') && !v.startsWith('//') ? v : '/')
 
-/* ---------- повідомлення ---------- */
+
 let pending = null
 export function flash(text, type = 'success') {
   const d = document.createElement('div')
@@ -26,7 +26,6 @@ export function showPendingFlash() {
   pending = null
 }
 
-/* ---------- діалог підтвердження ---------- */
 export function confirmDialog({ title = 'Підтвердження дії', text = 'Ви впевнені, що хочете продовжити?', yes = 'Підтвердити' } = {}) {
   const modal = document.getElementById('confirm-modal')
   modal.querySelector('#confirm-title').textContent = title
@@ -39,7 +38,6 @@ export function confirmDialog({ title = 'Підтвердження дії', tex
   })
 }
 
-/* ---------- помилки полів форми ---------- */
 export function clearFieldErrors(form) {
   form.querySelectorAll('.has-error').forEach((n) => n.classList.remove('has-error'))
   form.querySelectorAll('.field-error').forEach((n) => n.remove())
@@ -54,7 +52,6 @@ export function showFieldErrors(form, errors) {
   }
 }
 
-/* ---------- спільні шматки розмітки ---------- */
 export function ageNotice() {
   const { limit, isGuest } = state.age
   if (!isGuest || limit == null) return ''
@@ -109,7 +106,6 @@ export function pagination(page, pages) {
   </ul></nav>`
 }
 
-/* ---------- шапка й футер ---------- */
 export function renderHeader() {
   const path = location.pathname
   const on = (p) => (p === '/' ? path === '/' : path === p || path.startsWith(p + '/')) ? ' class="on" aria-current="page"' : ''
@@ -135,9 +131,8 @@ export function renderFooter() {
   document.getElementById('footer').innerHTML = `${esc(state.footer.text || state.site.name)}${links ? ' · ' + links : ''}`
 }
 
-/* ---------- глобальні обробники (один раз) ---------- */
 export function bindGlobal(navigate) {
-  // внутрішні посилання без перезавантаження сторінки
+
   document.addEventListener('click', (e) => {
     const a = e.target.closest('a[href]')
     if (!a || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return
@@ -155,7 +150,6 @@ export function bindGlobal(navigate) {
     }
   })
 
-  // обране: додати/прибрати з будь-якого місця сайту
   document.addEventListener('click', async (e) => {
     const btn = e.target.closest('[data-wish]')
     if (!btn) return
@@ -183,7 +177,6 @@ export function bindGlobal(navigate) {
     }
   })
 
-  // діалог підтвердження
   const modal = document.getElementById('confirm-modal')
   document.getElementById('confirm-yes').addEventListener('click', () => modal.close('yes'))
   modal.addEventListener('click', (e) => {
